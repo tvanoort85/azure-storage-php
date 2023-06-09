@@ -1,6 +1,7 @@
-# Microsoft Azure Storage PHP Client Libraries (Deprecated)
+# Azure-OSS Storage PHP Client Libraries
 
-This project will be in [Community Support](https://azure.github.io/azure-sdk/policies_support.html#package-lifecycle) until 17 March 2024. After this date the project and associated client libraries will be retired permanently. For more details on the retirement and alternatives to using this project, visit [Retirement notice: The Azure Storage PHP client libraries will be retired on 17 March 2024](https://aka.ms/AzStoragePHPSDKRetirement).
+This project was forked due the retirement of the official Azure SDK. For more information visit
+ [Retirement notice: The Azure Storage PHP client libraries will be retired on 17 March 2024](https://aka.ms/AzStoragePHPSDKRetirement).
 
 ---
 
@@ -11,11 +12,6 @@ This project provides a set of PHP client libraries that make it easy to access 
 * azure-storage-queue [![Latest Stable Version](https://poser.pugx.org/microsoft/azure-storage-queue/v/stable)](https://packagist.org/packages/microsoft/azure-storage-queue)
 * azure-storage-file [![Latest Stable Version](https://poser.pugx.org/microsoft/azure-storage-file/v/stable)](https://packagist.org/packages/microsoft/azure-storage-file)
 * azure-storage-common [![Latest Stable Version](https://poser.pugx.org/microsoft/azure-storage-common/v/stable)](https://packagist.org/packages/microsoft/azure-storage-common)
-
-> **Note**
->
-> * If you are looking for the Service Bus, Service Runtime, Service Management or Media Services libraries, please visit [Azure SDK for PHP](https://github.com/Azure/azure-sdk-for-php).
-> * If you need big file (larger than 2GB) or 64-bit integer support, please install PHP 7 64-bit version.
 
 ## Features
 
@@ -48,15 +44,6 @@ Please check details on [API reference documents](http://azure.github.io/azure-s
 
 * Recommended extension for PHP:
   * php_curl.dll
-
-## Download Source Code
-
-To get the source code from GitHub, type
-
-```shell
-git clone https://github.com/Azure/azure-storage-php.git
-cd ./azure-storage-php
-```
 
 ## Install via Composer
 
@@ -251,23 +238,10 @@ cURL can't verify the validity of Microsoft certificate when trying to issue a r
 
 ## Code samples
 
-You can find samples in the [samples folder](https://github.com/Azure/azure-storage-php/tree/master/samples).
-
-## Migrate from [Azure SDK for PHP](https://github.com/Azure/azure-sdk-for-php/)
-
-If you are using [Azure SDK for PHP](https://github.com/Azure/azure-sdk-for-php/) to access Azure Storage Service, we highly recommend you to migrate to this SDK for faster issue resolution and quicker feature implementation. We are working on supporting the latest service features as well as improvement on existing APIs.
-
-For now, Microsoft Azure Storage PHP client libraries share almost the same interface as the storage blobs, tables, queues and files APIs in Azure SDK for PHP. However, there are some minor breaking changes need to be addressed during your migration. You can find the details in [BreakingChanges.md](BreakingChanges.md).
-
-## Need Help?
-
-Be sure to check out the Microsoft Azure [Developer Forums on Stack Overflow](http://go.microsoft.com/fwlink/?LinkId=234489) and [github issues](https://github.com/Azure/azure-storage-php/issues) if you have trouble with the provided code.
-
-Please note this project will be in Community Support and Azure Storage team commits to validate and release every quarter, as long as there are PRs from community. Azure Storage team is unable to continue to add new features or provide bugfixes.
+You can find samples in the [samples folder](https://github.com/Azure-OSS/azure-storage-php/tree/main/samples).
 
 ## Contribute Code or Provide Feedback
 
-If you would like to become an active contributor to this project please follow the instructions provided in [Azure Projects Contribution Guidelines](https://opensource.microsoft.com/program/#program-contributing).
 You can find more details for contributing in the [CONTRIBUTING.md](CONTRIBUTING.md).
 
-If you encounter any bugs with the library please file an issue in the [Issues](https://github.com/Azure/azure-storage-php/issues) section of the project.
+If you encounter any bugs with the library please file an issue in the [Issues](https://github.com/Azure-OSS/azure-storage-php/issues) section of the project.
