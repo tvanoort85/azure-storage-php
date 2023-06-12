@@ -4,7 +4,7 @@
     "keywords": [ "php", "azure", "storage", "sdk" ],
     "license": "MIT",
     "require": {
-        "php": ">=5.6.0",
+        "php": "^8.0.0",
 		"guzzlehttp/guzzle": "~6.0|^7.0"
     },
     "require-dev": {
