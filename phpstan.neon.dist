@@ -1,0 +1,12 @@
+includes:
+    - ./phpstan-baseline.neon
+
+parameters:
+    level: 8
+    paths:
+        - azure-storage-blob
+        - azure-storage-common
+        - azure-storage-file
+        - azure-storage-queue
+        - azure-storage-table
+    tmpDir: .build/phpstan/
