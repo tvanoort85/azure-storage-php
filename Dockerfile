@@ -1,10 +1,15 @@
-FROM php:8.0-fpm-buster
+FROM php:8.0-cli-buster
 
 # Install Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
+# Install PHP package installer
+COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr/local/bin/
+
 # Install packages
 RUN apt update && apt install -y zip curl fcgiwrap && \
+    chmod uga+x /usr/local/bin/install-php-extensions && \
+    install-php-extensions fileinfo mbstring openssl xsl curl && \
     mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 
 ENV USER=azure-oss

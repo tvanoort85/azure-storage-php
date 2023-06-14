@@ -10,23 +10,23 @@ help:
 
 .PHONY: cs
 cs: vendor ## Fixes coding standard issues with php-cs-fixer
-	docker compose exec phpfpm vendor/bin/php-cs-fixer fix --diff --verbose
+	docker compose run phpfpm vendor/bin/php-cs-fixer fix --diff --verbose
 
 .PHONY: coverage
 coverage: vendor ## Collects coverage with phpunit
-	docker compose exec phpfpm vendor/bin/phpunit --coverage-text --coverage-clover=.build/logs/clover.xml
+	docker compose run phpfpm vendor/bin/phpunit --coverage-text --coverage-clover=.build/logs/clover.xml
 
 .PHONY: test
 test: vendor ## Runs tests with phpunit
-	docker compose exec phpfpm vendor/bin/phpunit
+	docker compose run phpfpm vendor/bin/phpunit
 
 .PHONY: static
 static: vendor ## Runs static analyzers
-	docker compose exec phpfpm vendor/bin/phpstan --memory-limit=2G
+	docker compose run phpfpm vendor/bin/phpstan --memory-limit=2G
 
 .PHONY: baseline
 baseline: vendor ## Generate baseline files
-	docker compose exec phpfpm vendor/bin/phpstan --memory-limit=2G --generate-baseline
+	docker compose run phpfpm vendor/bin/phpstan --memory-limit=2G --generate-baseline
 
 .PHONY: clean
 clean:   ## Cleans up build and vendor files
