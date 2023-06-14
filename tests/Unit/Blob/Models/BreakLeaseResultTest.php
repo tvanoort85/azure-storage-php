@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\BreakLeaseResult;
+use AzureOSS\Storage\Blob\Models\BreakLeaseResult;
 
 /**
  * Unit tests for class BreakLeaseResult

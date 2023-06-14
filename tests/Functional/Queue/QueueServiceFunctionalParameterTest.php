@@ -19,11 +19,11 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\Queue;
 
-use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Queue\Models\ListMessagesOptions;
-use MicrosoftAzure\Storage\Queue\Models\PeekMessagesOptions;
-use MicrosoftAzure\Storage\Queue\Models\QueueServiceOptions;
+use AzureOSS\Storage\Common\Exceptions\ServiceException;
+use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Queue\Models\ListMessagesOptions;
+use AzureOSS\Storage\Queue\Models\PeekMessagesOptions;
+use AzureOSS\Storage\Queue\Models\QueueServiceOptions;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 class QueueServiceFunctionalParameterTest extends FunctionalTestBase

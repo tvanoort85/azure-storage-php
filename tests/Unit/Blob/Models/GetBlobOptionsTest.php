@@ -19,9 +19,9 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\AccessCondition;
-use MicrosoftAzure\Storage\Blob\Models\GetBlobOptions;
-use MicrosoftAzure\Storage\Common\Models\Range;
+use AzureOSS\Storage\Blob\Models\AccessCondition;
+use AzureOSS\Storage\Blob\Models\GetBlobOptions;
+use AzureOSS\Storage\Common\Models\Range;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

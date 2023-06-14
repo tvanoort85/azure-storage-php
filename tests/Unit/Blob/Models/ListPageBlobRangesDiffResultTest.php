@@ -19,9 +19,9 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\ListPageBlobRangesDiffResult;
-use MicrosoftAzure\Storage\Common\Internal\Utilities;
-use MicrosoftAzure\Storage\Common\Models\RangeDiff;
+use AzureOSS\Storage\Blob\Models\ListPageBlobRangesDiffResult;
+use AzureOSS\Storage\Common\Internal\Utilities;
+use AzureOSS\Storage\Common\Models\RangeDiff;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

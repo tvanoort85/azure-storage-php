@@ -19,18 +19,18 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\Table;
 
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Common\Internal\Utilities;
-use MicrosoftAzure\Storage\Common\Models\CORS;
-use MicrosoftAzure\Storage\Common\Models\Logging;
-use MicrosoftAzure\Storage\Common\Models\Metrics;
-use MicrosoftAzure\Storage\Common\Models\RetentionPolicy;
-use MicrosoftAzure\Storage\Common\Models\ServiceProperties;
-use MicrosoftAzure\Storage\Table\Models\EdmType;
-use MicrosoftAzure\Storage\Table\Models\Entity;
-use MicrosoftAzure\Storage\Table\Models\Filters\Filter;
-use MicrosoftAzure\Storage\Table\Models\QueryTablesOptions;
-use MicrosoftAzure\Storage\Table\Models\TableServiceOptions;
+use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Common\Internal\Utilities;
+use AzureOSS\Storage\Common\Models\CORS;
+use AzureOSS\Storage\Common\Models\Logging;
+use AzureOSS\Storage\Common\Models\Metrics;
+use AzureOSS\Storage\Common\Models\RetentionPolicy;
+use AzureOSS\Storage\Common\Models\ServiceProperties;
+use AzureOSS\Storage\Table\Models\EdmType;
+use AzureOSS\Storage\Table\Models\Entity;
+use AzureOSS\Storage\Table\Models\Filters\Filter;
+use AzureOSS\Storage\Table\Models\QueryTablesOptions;
+use AzureOSS\Storage\Table\Models\TableServiceOptions;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 class TableServiceFunctionalTestData

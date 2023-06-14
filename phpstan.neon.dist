@@ -4,9 +4,5 @@ includes:
 parameters:
     level: 8
     paths:
-        - azure-storage-blob
-        - azure-storage-common
-        - azure-storage-file
-        - azure-storage-queue
-        - azure-storage-table
+        - src
     tmpDir: .build/phpstan/

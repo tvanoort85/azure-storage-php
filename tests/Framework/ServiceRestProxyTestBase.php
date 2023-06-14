@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Framework;
 
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Common\Models\ServiceProperties;
+use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Common\Models\ServiceProperties;
 
 /**
  * TestBase class for Storage Services test classes.

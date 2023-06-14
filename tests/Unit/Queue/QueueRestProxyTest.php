@@ -19,15 +19,15 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Queue;
 
-use MicrosoftAzure\Storage\Common\Models\ServiceProperties;
-use MicrosoftAzure\Storage\Queue\Internal\IQueue;
-use MicrosoftAzure\Storage\Queue\Models\CreateQueueOptions;
-use MicrosoftAzure\Storage\Queue\Models\ListMessagesOptions;
-use MicrosoftAzure\Storage\Queue\Models\ListQueuesOptions;
-use MicrosoftAzure\Storage\Queue\Models\PeekMessagesOptions;
-use MicrosoftAzure\Storage\Queue\Models\QueueACL;
-use MicrosoftAzure\Storage\Queue\Models\QueueServiceOptions;
-use MicrosoftAzure\Storage\Queue\QueueRestProxy;
+use AzureOSS\Storage\Common\Models\ServiceProperties;
+use AzureOSS\Storage\Queue\Internal\IQueue;
+use AzureOSS\Storage\Queue\Models\CreateQueueOptions;
+use AzureOSS\Storage\Queue\Models\ListMessagesOptions;
+use AzureOSS\Storage\Queue\Models\ListQueuesOptions;
+use AzureOSS\Storage\Queue\Models\PeekMessagesOptions;
+use AzureOSS\Storage\Queue\Models\QueueACL;
+use AzureOSS\Storage\Queue\Models\QueueServiceOptions;
+use AzureOSS\Storage\Queue\QueueRestProxy;
 use MicrosoftAzure\Storage\Tests\Framework\QueueServiceRestProxyTestBase;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
@@ -131,7 +131,7 @@ class QueueRestProxyTest extends QueueServiceRestProxyTestBase
 
     public function testListQueuesWithInvalidNextMarkerFail()
     {
-        $this->expectException(\MicrosoftAzure\Storage\Common\Exceptions\ServiceException::class);
+        $this->expectException(\AzureOSS\Storage\Common\Exceptions\ServiceException::class);
         $this->expectExceptionMessage('400');
 
         $this->skipIfEmulated();
@@ -229,7 +229,7 @@ class QueueRestProxyTest extends QueueServiceRestProxyTestBase
 
     public function testCreateQueueInvalidNameFail()
     {
-        $this->expectException(\MicrosoftAzure\Storage\Common\Exceptions\ServiceException::class);
+        $this->expectException(\AzureOSS\Storage\Common\Exceptions\ServiceException::class);
         $this->expectExceptionMessage('400');
 
         // Setup
@@ -256,7 +256,7 @@ class QueueRestProxyTest extends QueueServiceRestProxyTestBase
 
     public function testDeleteQueueFail()
     {
-        $this->expectException(\MicrosoftAzure\Storage\Common\Exceptions\ServiceException::class);
+        $this->expectException(\AzureOSS\Storage\Common\Exceptions\ServiceException::class);
         $this->expectExceptionMessage('404');
 
         // Setup

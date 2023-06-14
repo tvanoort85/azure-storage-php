@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Queue\Models;
 
-use MicrosoftAzure\Storage\Queue\Internal\QueueResources;
-use MicrosoftAzure\Storage\Queue\Models\QueueAccessPolicy;
+use AzureOSS\Storage\Queue\Internal\QueueResources;
+use AzureOSS\Storage\Queue\Models\QueueAccessPolicy;
 use MicrosoftAzure\Storage\Tests\Unit\Common\Models\AccessPolicyTest;
 
 /**

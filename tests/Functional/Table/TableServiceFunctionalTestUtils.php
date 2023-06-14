@@ -19,16 +19,16 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\Table;
 
-use MicrosoftAzure\Storage\Common\Internal\Utilities;
-use MicrosoftAzure\Storage\Table\Models\EdmType;
-use MicrosoftAzure\Storage\Table\Models\Entity;
-use MicrosoftAzure\Storage\Table\Models\Filters\BinaryFilter;
-use MicrosoftAzure\Storage\Table\Models\Filters\ConstantFilter;
-use MicrosoftAzure\Storage\Table\Models\Filters\Filter;
-use MicrosoftAzure\Storage\Table\Models\Filters\PropertyNameFilter;
-use MicrosoftAzure\Storage\Table\Models\Filters\QueryStringFilter;
-use MicrosoftAzure\Storage\Table\Models\Filters\UnaryFilter;
-use MicrosoftAzure\Storage\Table\Models\Property;
+use AzureOSS\Storage\Common\Internal\Utilities;
+use AzureOSS\Storage\Table\Models\EdmType;
+use AzureOSS\Storage\Table\Models\Entity;
+use AzureOSS\Storage\Table\Models\Filters\BinaryFilter;
+use AzureOSS\Storage\Table\Models\Filters\ConstantFilter;
+use AzureOSS\Storage\Table\Models\Filters\Filter;
+use AzureOSS\Storage\Table\Models\Filters\PropertyNameFilter;
+use AzureOSS\Storage\Table\Models\Filters\QueryStringFilter;
+use AzureOSS\Storage\Table\Models\Filters\UnaryFilter;
+use AzureOSS\Storage\Table\Models\Property;
 use MicrosoftAzure\Storage\Tests\Functional\Table\Enums\MutatePivot;
 
 class TableServiceFunctionalTestUtils

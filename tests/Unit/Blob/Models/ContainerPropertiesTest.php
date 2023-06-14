@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\ContainerProperties;
+use AzureOSS\Storage\Blob\Models\ContainerProperties;
 
 /**
  * Unit tests for class ContainerProperties

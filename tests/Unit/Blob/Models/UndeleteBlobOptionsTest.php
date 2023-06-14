@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\AccessCondition;
-use MicrosoftAzure\Storage\Blob\Models\UndeleteBlobOptions;
+use AzureOSS\Storage\Blob\Models\AccessCondition;
+use AzureOSS\Storage\Blob\Models\UndeleteBlobOptions;
 
 /**
  * Unit tests for class UndeleteBlobOptions

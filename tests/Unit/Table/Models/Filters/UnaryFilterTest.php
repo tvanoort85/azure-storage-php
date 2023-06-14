@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Table\Models\Filters;
 
-use MicrosoftAzure\Storage\Table\Models\Filters\UnaryFilter;
+use AzureOSS\Storage\Table\Models\Filters\UnaryFilter;
 
 /**
  * Unit tests for class UnaryFilter

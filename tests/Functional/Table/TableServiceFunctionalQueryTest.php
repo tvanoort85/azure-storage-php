@@ -19,13 +19,13 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\Table;
 
-use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
-use MicrosoftAzure\Storage\Table\Models\BatchOperations;
-use MicrosoftAzure\Storage\Table\Models\EdmType;
-use MicrosoftAzure\Storage\Table\Models\Entity;
-use MicrosoftAzure\Storage\Table\Models\Filters\Filter;
-use MicrosoftAzure\Storage\Table\Models\Query;
-use MicrosoftAzure\Storage\Table\Models\QueryEntitiesOptions;
+use AzureOSS\Storage\Common\Exceptions\ServiceException;
+use AzureOSS\Storage\Table\Models\BatchOperations;
+use AzureOSS\Storage\Table\Models\EdmType;
+use AzureOSS\Storage\Table\Models\Entity;
+use AzureOSS\Storage\Table\Models\Filters\Filter;
+use AzureOSS\Storage\Table\Models\Query;
+use AzureOSS\Storage\Table\Models\QueryEntitiesOptions;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 class TableServiceFunctionalQueryTest extends FunctionalTestBase

@@ -19,9 +19,9 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\Blob;
 
-use MicrosoftAzure\Storage\Blob\BlobRestProxy;
-use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
-use MicrosoftAzure\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Blob\BlobRestProxy;
+use AzureOSS\Storage\Blob\Models\PublicAccessType;
+use AzureOSS\Storage\Common\Internal\Resources;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**
@@ -88,7 +88,7 @@ class AnonymousAccessFunctionalTest extends \PHPUnit\Framework\TestCase
 
     public function testPublicAccessBlobOnly()
     {
-        $this->expectException(\MicrosoftAzure\Storage\Common\Exceptions\ServiceException::class);
+        $this->expectException(\AzureOSS\Storage\Common\Exceptions\ServiceException::class);
         $this->expectExceptionMessage('404');
 
         $acl = self::$blobRestProxy->getContainerAcl($this->containerName)->getContainerAcl();

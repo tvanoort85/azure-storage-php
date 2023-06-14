@@ -19,16 +19,16 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Table;
 
-use MicrosoftAzure\Storage\Common\Models\ServiceProperties;
-use MicrosoftAzure\Storage\Table\Internal\ITable;
-use MicrosoftAzure\Storage\Table\Models\BatchOperations;
-use MicrosoftAzure\Storage\Table\Models\EdmType;
-use MicrosoftAzure\Storage\Table\Models\Filters\Filter;
-use MicrosoftAzure\Storage\Table\Models\Query;
-use MicrosoftAzure\Storage\Table\Models\QueryEntitiesOptions;
-use MicrosoftAzure\Storage\Table\Models\QueryTablesOptions;
-use MicrosoftAzure\Storage\Table\Models\TableACL;
-use MicrosoftAzure\Storage\Table\TableRestProxy;
+use AzureOSS\Storage\Common\Models\ServiceProperties;
+use AzureOSS\Storage\Table\Internal\ITable;
+use AzureOSS\Storage\Table\Models\BatchOperations;
+use AzureOSS\Storage\Table\Models\EdmType;
+use AzureOSS\Storage\Table\Models\Filters\Filter;
+use AzureOSS\Storage\Table\Models\Query;
+use AzureOSS\Storage\Table\Models\QueryEntitiesOptions;
+use AzureOSS\Storage\Table\Models\QueryTablesOptions;
+use AzureOSS\Storage\Table\Models\TableACL;
+use AzureOSS\Storage\Table\TableRestProxy;
 use MicrosoftAzure\Storage\Tests\Framework\TableServiceRestProxyTestBase;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
@@ -838,7 +838,7 @@ class TableRestProxyTest extends TableServiceRestProxyTestBase
 
     public function testBatchWithDifferentPKFail()
     {
-        $this->expectException(\MicrosoftAzure\Storage\Common\Exceptions\ServiceException::class);
+        $this->expectException(\AzureOSS\Storage\Common\Exceptions\ServiceException::class);
         $this->expectExceptionMessage('All commands in a batch must operate on same entity group.');
 
         // Setup

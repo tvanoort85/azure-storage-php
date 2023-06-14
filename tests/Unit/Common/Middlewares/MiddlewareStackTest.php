@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Middlewares;
 
-use MicrosoftAzure\Storage\Common\Middlewares\MiddlewareStack;
+use AzureOSS\Storage\Common\Middlewares\MiddlewareStack;
 
 /**
  * Unit tests for class MiddlewareStack

@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\LeaseMode;
+use AzureOSS\Storage\Blob\Models\LeaseMode;
 
 /**
  * Unit tests for class LeaseMode

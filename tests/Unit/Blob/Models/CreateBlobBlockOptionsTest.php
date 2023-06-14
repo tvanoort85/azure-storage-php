@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\CreateBlobBlockOptions;
+use AzureOSS\Storage\Blob\Models\CreateBlobBlockOptions;
 
 /**
  * Unit tests for class CreateBlobBlockOptions

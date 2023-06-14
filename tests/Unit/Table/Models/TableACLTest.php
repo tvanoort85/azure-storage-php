@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Table\Models;
 
-use MicrosoftAzure\Storage\Table\Models\TableACL;
+use AzureOSS\Storage\Table\Models\TableACL;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

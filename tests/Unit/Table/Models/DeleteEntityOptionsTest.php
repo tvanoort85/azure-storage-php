@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Table\Models;
 
-use MicrosoftAzure\Storage\Table\Models\DeleteEntityOptions;
+use AzureOSS\Storage\Table\Models\DeleteEntityOptions;
 
 /**
  * Unit tests for class DeleteEntityOptions

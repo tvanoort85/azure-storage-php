@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Queue\Models;
 
-use MicrosoftAzure\Storage\Queue\Models\Queue;
+use AzureOSS\Storage\Queue\Models\Queue;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

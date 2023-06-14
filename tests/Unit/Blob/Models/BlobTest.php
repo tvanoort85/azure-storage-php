@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\Blob;
-use MicrosoftAzure\Storage\Blob\Models\BlobProperties;
+use AzureOSS\Storage\Blob\Models\Blob;
+use AzureOSS\Storage\Blob\Models\BlobProperties;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

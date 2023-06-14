@@ -19,18 +19,18 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\Table;
 
-use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
-use MicrosoftAzure\Storage\Common\Internal\Utilities;
-use MicrosoftAzure\Storage\Table\Models\BatchOperations;
-use MicrosoftAzure\Storage\Table\Models\DeleteEntityOptions;
-use MicrosoftAzure\Storage\Table\Models\EdmType;
-use MicrosoftAzure\Storage\Table\Models\Entity;
-use MicrosoftAzure\Storage\Table\Models\Filters\Filter;
-use MicrosoftAzure\Storage\Table\Models\InsertEntityResult;
-use MicrosoftAzure\Storage\Table\Models\Query;
-use MicrosoftAzure\Storage\Table\Models\QueryEntitiesOptions;
-use MicrosoftAzure\Storage\Table\Models\QueryTablesOptions;
-use MicrosoftAzure\Storage\Table\Models\UpdateEntityResult;
+use AzureOSS\Storage\Common\Exceptions\ServiceException;
+use AzureOSS\Storage\Common\Internal\Utilities;
+use AzureOSS\Storage\Table\Models\BatchOperations;
+use AzureOSS\Storage\Table\Models\DeleteEntityOptions;
+use AzureOSS\Storage\Table\Models\EdmType;
+use AzureOSS\Storage\Table\Models\Entity;
+use AzureOSS\Storage\Table\Models\Filters\Filter;
+use AzureOSS\Storage\Table\Models\InsertEntityResult;
+use AzureOSS\Storage\Table\Models\Query;
+use AzureOSS\Storage\Table\Models\QueryEntitiesOptions;
+use AzureOSS\Storage\Table\Models\QueryTablesOptions;
+use AzureOSS\Storage\Table\Models\UpdateEntityResult;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 class TableServiceIntegrationTest extends IntegrationTestBase

@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\BlobAccessPolicy;
-use MicrosoftAzure\Storage\Common\Models\SignedIdentifier;
+use AzureOSS\Storage\Blob\Models\BlobAccessPolicy;
+use AzureOSS\Storage\Common\Models\SignedIdentifier;
 
 /**
  * Unit tests for class SignedIdentifier

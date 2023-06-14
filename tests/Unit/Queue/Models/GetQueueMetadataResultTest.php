@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Queue\Models;
 
-use MicrosoftAzure\Storage\Queue\Models\GetQueueMetadataResult;
+use AzureOSS\Storage\Queue\Models\GetQueueMetadataResult;
 
 /**
  * Unit tests for class GetQueueMetadataResult

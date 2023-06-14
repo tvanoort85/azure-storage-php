@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Queue\Models;
 
-use MicrosoftAzure\Storage\Queue\Models\PeekMessagesOptions;
+use AzureOSS\Storage\Queue\Models\PeekMessagesOptions;
 
 /**
  * Unit tests for class PeekMessagesOptions

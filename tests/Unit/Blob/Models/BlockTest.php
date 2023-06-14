@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\Block;
+use AzureOSS\Storage\Blob\Models\Block;
 
 /**
  * Unit tests for class Block.

@@ -19,9 +19,9 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\File\Models;
 
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\File\Internal\FileResources;
-use MicrosoftAzure\Storage\File\Models\File;
+use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\File\Internal\FileResources;
+use AzureOSS\Storage\File\Models\File;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

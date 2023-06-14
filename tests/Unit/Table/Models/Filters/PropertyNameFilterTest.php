@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Table\Models\Filters;
 
-use MicrosoftAzure\Storage\Table\Models\Filters\PropertyNameFilter;
+use AzureOSS\Storage\Table\Models\Filters\PropertyNameFilter;
 
 /**
  * Unit tests for class PropertyNameFilter

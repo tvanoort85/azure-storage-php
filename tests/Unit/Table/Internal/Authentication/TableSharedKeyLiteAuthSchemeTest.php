@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Table\Internal\Authentication;
 
-use MicrosoftAzure\Storage\Table\Internal\TableResources as Resources;
+use AzureOSS\Storage\Table\Internal\TableResources as Resources;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 use MicrosoftAzure\Storage\Tests\Mock\Table\Internal\Authentication\TableSharedKeyLiteAuthSchemeMock;
 

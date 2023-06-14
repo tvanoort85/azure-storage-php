@@ -19,15 +19,15 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\File;
 
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Common\Models\Range;
-use MicrosoftAzure\Storage\Common\Models\ServiceProperties;
-use MicrosoftAzure\Storage\File\FileRestProxy;
-use MicrosoftAzure\Storage\File\Internal\IFile;
-use MicrosoftAzure\Storage\File\Models\CreateDirectoryOptions;
-use MicrosoftAzure\Storage\File\Models\CreateFileFromContentOptions;
-use MicrosoftAzure\Storage\File\Models\ListDirectoriesAndFilesOptions;
-use MicrosoftAzure\Storage\File\Models\ShareACL;
+use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Common\Models\Range;
+use AzureOSS\Storage\Common\Models\ServiceProperties;
+use AzureOSS\Storage\File\FileRestProxy;
+use AzureOSS\Storage\File\Internal\IFile;
+use AzureOSS\Storage\File\Models\CreateDirectoryOptions;
+use AzureOSS\Storage\File\Models\CreateFileFromContentOptions;
+use AzureOSS\Storage\File\Models\ListDirectoriesAndFilesOptions;
+use AzureOSS\Storage\File\Models\ShareACL;
 use MicrosoftAzure\Storage\Tests\Framework\FileServiceRestProxyTestBase;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
@@ -94,7 +94,7 @@ class FileRestProxyTest extends FileServiceRestProxyTestBase
 
     public function testGetSetShareMetadataAndProperties()
     {
-        $this->expectException(\MicrosoftAzure\Storage\Common\Exceptions\ServiceException::class);
+        $this->expectException(\AzureOSS\Storage\Common\Exceptions\ServiceException::class);
         $this->expectExceptionMessage('400');
 
         $share1 = 'metaproperties1' . $this->createSuffix();
@@ -716,7 +716,7 @@ class FileRestProxyTest extends FileServiceRestProxyTestBase
 
     public function testAbortCopy()
     {
-        $this->expectException(\MicrosoftAzure\Storage\Common\Exceptions\ServiceException::class);
+        $this->expectException(\AzureOSS\Storage\Common\Exceptions\ServiceException::class);
         $this->expectExceptionMessage('There is currently no pending copy operation');
 
         $share = 'abortcopy' . $this->createSuffix();

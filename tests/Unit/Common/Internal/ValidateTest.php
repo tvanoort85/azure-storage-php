@@ -19,10 +19,10 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal;
 
-use MicrosoftAzure\Storage\Common\Exceptions\InvalidArgumentTypeException;
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Common\Internal\Utilities;
-use MicrosoftAzure\Storage\Common\Internal\Validate;
+use AzureOSS\Storage\Common\Exceptions\InvalidArgumentTypeException;
+use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Common\Internal\Utilities;
+use AzureOSS\Storage\Common\Internal\Validate;
 
 /**
  * Unit tests for class ValidateTest
@@ -377,7 +377,7 @@ class ValidateTest extends \PHPUnit\Framework\TestCase
     {
         // Setup
         $value = new Resources();
-        $type = 'MicrosoftAzure\Storage\Common\Internal\Resources';
+        $type = 'AzureOSS\Storage\Common\Internal\Resources';
 
         // Test
         $result = Validate::isA($value, $type, 'value');
@@ -391,7 +391,7 @@ class ValidateTest extends \PHPUnit\Framework\TestCase
         // Setup
         $this->expectException('\InvalidArgumentException');
         $value = null;
-        $type = 'MicrosoftAzure\Storage\Common\Internal\Resources';
+        $type = 'AzureOSS\Storage\Common\Internal\Resources';
 
         // Test
         $result = Validate::isA($value, $type, 'value');
@@ -417,7 +417,7 @@ class ValidateTest extends \PHPUnit\Framework\TestCase
         // Setup
         $this->expectException(get_class(new InvalidArgumentTypeException('')));
         $value = 'test string';
-        $type = 'MicrosoftAzure\Storage\Common\Internal\Resources';
+        $type = 'AzureOSS\Storage\Common\Internal\Resources';
 
         // Test
         $result = Validate::isA($value, $type, 'value');

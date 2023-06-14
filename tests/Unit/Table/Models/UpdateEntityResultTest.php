@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Table\Models;
 
-use MicrosoftAzure\Storage\Table\Models\UpdateEntityResult;
+use AzureOSS\Storage\Table\Models\UpdateEntityResult;
 
 /**
  * Unit tests for class UpdateEntityResult

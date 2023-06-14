@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\File\Models;
 
-use MicrosoftAzure\Storage\Common\Internal\Utilities;
-use MicrosoftAzure\Storage\File\Models\ListSharesResult;
+use AzureOSS\Storage\Common\Internal\Utilities;
+use AzureOSS\Storage\File\Models\ListSharesResult;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

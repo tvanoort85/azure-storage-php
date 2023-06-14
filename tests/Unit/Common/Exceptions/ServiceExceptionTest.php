@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Exceptions;
 
-use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
+use AzureOSS\Storage\Common\Exceptions\ServiceException;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

@@ -19,10 +19,10 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Table\Models;
 
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Common\Internal\Utilities;
-use MicrosoftAzure\Storage\Table\Internal\JsonODataReaderWriter;
-use MicrosoftAzure\Storage\Table\Models\InsertEntityResult;
+use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Common\Internal\Utilities;
+use AzureOSS\Storage\Table\Internal\JsonODataReaderWriter;
+use AzureOSS\Storage\Table\Models\InsertEntityResult;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

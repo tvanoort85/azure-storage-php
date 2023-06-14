@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common;
 
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Common\SharedAccessSignatureHelper;
+use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Common\SharedAccessSignatureHelper;
 use MicrosoftAzure\Storage\Tests\Framework\ReflectionTestBase;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 

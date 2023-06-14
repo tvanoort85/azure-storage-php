@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Mock\Common\Internal\Authentication;
 
-use MicrosoftAzure\Storage\Common\Internal\Authentication\OAuthScheme;
+use AzureOSS\Storage\Common\Internal\Authentication\OAuthScheme;
 
 /**
  * Mock class to wrap OAuthScheme class.

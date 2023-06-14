@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal;
 
-use MicrosoftAzure\Storage\Common\Internal\ConnectionStringParser;
+use AzureOSS\Storage\Common\Internal\ConnectionStringParser;
 
 /**
  * Unit tests for class ConnectionStringParser

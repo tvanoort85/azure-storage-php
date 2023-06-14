@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
-use MicrosoftAzure\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Blob\Models\PublicAccessType;
+use AzureOSS\Storage\Common\Internal\Resources;
 
 /**
  * Unit tests for class PublicAccessType

@@ -19,12 +19,12 @@
 
 namespace MicrosoftAzure\Storage\Tests\Framework;
 
-use MicrosoftAzure\Storage\Blob\BlobRestProxy;
-use MicrosoftAzure\Storage\Blob\Models\Container;
-use MicrosoftAzure\Storage\Blob\Models\CreateContainerOptions;
-use MicrosoftAzure\Storage\Blob\Models\ListContainersOptions;
-use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
-use MicrosoftAzure\Storage\Common\Middlewares\RetryMiddlewareFactory;
+use AzureOSS\Storage\Blob\BlobRestProxy;
+use AzureOSS\Storage\Blob\Models\Container;
+use AzureOSS\Storage\Blob\Models\CreateContainerOptions;
+use AzureOSS\Storage\Blob\Models\ListContainersOptions;
+use AzureOSS\Storage\Common\Exceptions\ServiceException;
+use AzureOSS\Storage\Common\Middlewares\RetryMiddlewareFactory;
 
 /**
  * TestBase class for each unit test class.

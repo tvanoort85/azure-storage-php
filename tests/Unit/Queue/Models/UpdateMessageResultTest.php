@@ -19,9 +19,9 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Queue\Models;
 
-use MicrosoftAzure\Storage\Common\Internal\Utilities;
-use MicrosoftAzure\Storage\Queue\Internal\QueueResources;
-use MicrosoftAzure\Storage\Queue\Models\UpdateMessageResult;
+use AzureOSS\Storage\Common\Internal\Utilities;
+use AzureOSS\Storage\Queue\Internal\QueueResources;
+use AzureOSS\Storage\Queue\Models\UpdateMessageResult;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

@@ -19,14 +19,14 @@
 
 namespace MicrosoftAzure\Storage\Tests\Framework;
 
-use MicrosoftAzure\Storage\Blob\BlobRestProxy;
-use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Common\Internal\Serialization\XmlSerializer;
-use MicrosoftAzure\Storage\Common\Internal\StorageServiceSettings;
-use MicrosoftAzure\Storage\File\FileRestProxy;
-use MicrosoftAzure\Storage\Queue\QueueRestProxy;
-use MicrosoftAzure\Storage\Table\TableRestProxy;
+use AzureOSS\Storage\Blob\BlobRestProxy;
+use AzureOSS\Storage\Common\Exceptions\ServiceException;
+use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Common\Internal\Serialization\XmlSerializer;
+use AzureOSS\Storage\Common\Internal\StorageServiceSettings;
+use AzureOSS\Storage\File\FileRestProxy;
+use AzureOSS\Storage\Queue\QueueRestProxy;
+use AzureOSS\Storage\Table\TableRestProxy;
 
 /**
  * Test base for SAS functional tests.

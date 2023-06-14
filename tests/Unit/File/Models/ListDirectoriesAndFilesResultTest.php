@@ -19,10 +19,10 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\File\Models;
 
-use MicrosoftAzure\Storage\File\Internal\FileResources as Resources;
-use MicrosoftAzure\Storage\File\Models\Directory;
-use MicrosoftAzure\Storage\File\Models\File;
-use MicrosoftAzure\Storage\File\Models\ListDirectoriesAndFilesResult;
+use AzureOSS\Storage\File\Internal\FileResources as Resources;
+use AzureOSS\Storage\File\Models\Directory;
+use AzureOSS\Storage\File\Models\File;
+use AzureOSS\Storage\File\Models\ListDirectoriesAndFilesResult;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

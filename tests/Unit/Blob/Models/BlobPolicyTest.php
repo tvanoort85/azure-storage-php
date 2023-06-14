@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Internal\BlobResources;
-use MicrosoftAzure\Storage\Blob\Models\BlobAccessPolicy;
+use AzureOSS\Storage\Blob\Internal\BlobResources;
+use AzureOSS\Storage\Blob\Models\BlobAccessPolicy;
 use MicrosoftAzure\Storage\Tests\Unit\Common\Models\AccessPolicyTest;
 
 /**

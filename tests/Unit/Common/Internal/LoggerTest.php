@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal;
 
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Common\Logger;
+use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Common\Logger;
 use MicrosoftAzure\Storage\Tests\Framework\VirtualFileSystem;
 
 /**

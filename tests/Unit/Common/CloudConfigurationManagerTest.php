@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common;
 
-use MicrosoftAzure\Storage\Common\CloudConfigurationManager;
-use MicrosoftAzure\Storage\Common\Internal\ConnectionStringSource;
+use AzureOSS\Storage\Common\CloudConfigurationManager;
+use AzureOSS\Storage\Common\Internal\ConnectionStringSource;
 
 /**
  * Unit tests for class CloudConfigurationManager
@@ -34,11 +34,11 @@ class CloudConfigurationManagerTest extends \PHPUnit\Framework\TestCase
 
     protected function setUp()
     {
-        $isInitialized = new \ReflectionProperty('MicrosoftAzure\Storage\Common\CloudConfigurationManager', '_isInitialized');
+        $isInitialized = new \ReflectionProperty('AzureOSS\Storage\Common\CloudConfigurationManager', '_isInitialized');
         $isInitialized->setAccessible(true);
         $isInitialized->setValue(false);
 
-        $sources = new \ReflectionProperty('MicrosoftAzure\Storage\Common\CloudConfigurationManager', '_sources');
+        $sources = new \ReflectionProperty('AzureOSS\Storage\Common\CloudConfigurationManager', '_sources');
         $sources->setAccessible(true);
         $sources->setValue([]);
     }

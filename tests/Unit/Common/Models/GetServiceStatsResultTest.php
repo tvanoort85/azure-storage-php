@@ -19,9 +19,9 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Models;
 
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Common\Internal\Utilities;
-use MicrosoftAzure\Storage\Common\Models\GetServiceStatsResult;
+use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Common\Internal\Utilities;
+use AzureOSS\Storage\Common\Models\GetServiceStatsResult;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

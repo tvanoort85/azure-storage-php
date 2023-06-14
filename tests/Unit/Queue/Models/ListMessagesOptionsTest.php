@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Queue\Models;
 
-use MicrosoftAzure\Storage\Queue\Models\ListMessagesOptions;
+use AzureOSS\Storage\Queue\Models\ListMessagesOptions;
 
 /**
  * Unit tests for class ListMessagesOptions

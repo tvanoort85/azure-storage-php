@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common;
 
-use MicrosoftAzure\Storage\Common\Models\ServiceOptions;
+use AzureOSS\Storage\Common\Models\ServiceOptions;
 
 /**
  * Unit tests for class ServiceOptions

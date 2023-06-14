@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\Table;
 
-use MicrosoftAzure\Storage\Table\TableSharedAccessSignatureHelper;
+use AzureOSS\Storage\Table\TableSharedAccessSignatureHelper;
 
 /**
  * Provides methods to access the account name and key for the

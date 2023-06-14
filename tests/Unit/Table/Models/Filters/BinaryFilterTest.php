@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Table\Models\Filters;
 
-use MicrosoftAzure\Storage\Table\Models\Filters\BinaryFilter;
+use AzureOSS\Storage\Table\Models\Filters\BinaryFilter;
 
 /**
  * Unit tests for class BinaryFilter

@@ -19,15 +19,15 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\Queue;
 
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Common\Models\CORS;
-use MicrosoftAzure\Storage\Common\Models\Logging;
-use MicrosoftAzure\Storage\Common\Models\Metrics;
-use MicrosoftAzure\Storage\Common\Models\RetentionPolicy;
-use MicrosoftAzure\Storage\Common\Models\ServiceProperties;
-use MicrosoftAzure\Storage\Queue\Models\CreateMessageOptions;
-use MicrosoftAzure\Storage\Queue\Models\CreateQueueOptions;
-use MicrosoftAzure\Storage\Queue\Models\ListQueuesOptions;
+use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Common\Models\CORS;
+use AzureOSS\Storage\Common\Models\Logging;
+use AzureOSS\Storage\Common\Models\Metrics;
+use AzureOSS\Storage\Common\Models\RetentionPolicy;
+use AzureOSS\Storage\Common\Models\ServiceProperties;
+use AzureOSS\Storage\Queue\Models\CreateMessageOptions;
+use AzureOSS\Storage\Queue\Models\CreateQueueOptions;
+use AzureOSS\Storage\Queue\Models\ListQueuesOptions;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 class QueueServiceFunctionalTestData

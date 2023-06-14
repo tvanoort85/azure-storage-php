@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Queue\Models;
 
-use MicrosoftAzure\Storage\Queue\Models\CreateQueueOptions;
+use AzureOSS\Storage\Queue\Models\CreateQueueOptions;
 
 /**
  * Unit tests for class CreateQueueOptions

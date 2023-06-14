@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\ContainerACL;
-use MicrosoftAzure\Storage\Blob\Models\GetContainerACLResult;
+use AzureOSS\Storage\Blob\Models\ContainerACL;
+use AzureOSS\Storage\Blob\Models\GetContainerACLResult;
 
 /**
  * Unit tests for class GetContainerACLResult

@@ -19,15 +19,15 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\Table;
 
-use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
-use MicrosoftAzure\Storage\Common\Models\ServiceProperties;
-use MicrosoftAzure\Storage\Table\Internal\TableResources as Resources;
-use MicrosoftAzure\Storage\Table\Models\DeleteEntityOptions;
-use MicrosoftAzure\Storage\Table\Models\EdmType;
-use MicrosoftAzure\Storage\Table\Models\Entity;
-use MicrosoftAzure\Storage\Table\Models\Filters\Filter;
-use MicrosoftAzure\Storage\Table\Models\GetEntityOptions;
-use MicrosoftAzure\Storage\Table\Models\QueryEntitiesOptions;
+use AzureOSS\Storage\Common\Exceptions\ServiceException;
+use AzureOSS\Storage\Common\Models\ServiceProperties;
+use AzureOSS\Storage\Table\Internal\TableResources as Resources;
+use AzureOSS\Storage\Table\Models\DeleteEntityOptions;
+use AzureOSS\Storage\Table\Models\EdmType;
+use AzureOSS\Storage\Table\Models\Entity;
+use AzureOSS\Storage\Table\Models\Filters\Filter;
+use AzureOSS\Storage\Table\Models\GetEntityOptions;
+use AzureOSS\Storage\Table\Models\QueryEntitiesOptions;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 class TableServiceFunctionalParametersTest extends FunctionalTestBase

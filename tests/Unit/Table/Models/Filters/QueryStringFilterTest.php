@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Table\Models\Filters;
 
-use MicrosoftAzure\Storage\Table\Models\Filters\QueryStringFilter;
+use AzureOSS\Storage\Table\Models\Filters\QueryStringFilter;
 
 /**
  * Unit tests for class QueryStringFilter

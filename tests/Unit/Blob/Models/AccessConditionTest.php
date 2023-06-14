@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\AccessCondition;
-use MicrosoftAzure\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Blob\Models\AccessCondition;
+use AzureOSS\Storage\Common\Internal\Resources;
 
 /**
  * Unit tests for class AccessCondition

@@ -19,10 +19,10 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\BlobBlockType;
-use MicrosoftAzure\Storage\Blob\Models\Block;
-use MicrosoftAzure\Storage\Blob\Models\BlockList;
-use MicrosoftAzure\Storage\Common\Internal\Serialization\XmlSerializer;
+use AzureOSS\Storage\Blob\Models\BlobBlockType;
+use AzureOSS\Storage\Blob\Models\Block;
+use AzureOSS\Storage\Blob\Models\BlockList;
+use AzureOSS\Storage\Common\Internal\Serialization\XmlSerializer;
 
 /**
  * Unit tests for class BlockList

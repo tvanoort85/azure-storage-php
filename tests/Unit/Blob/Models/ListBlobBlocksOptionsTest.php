@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\ListBlobBlocksOptions;
+use AzureOSS\Storage\Blob\Models\ListBlobBlocksOptions;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

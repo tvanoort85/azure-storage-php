@@ -19,10 +19,10 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal\Middlewares;
 
+use AzureOSS\Storage\Common\Internal\Authentication\SharedKeyAuthScheme;
+use AzureOSS\Storage\Common\Internal\Middlewares\CommonRequestMiddleware;
+use AzureOSS\Storage\Common\Internal\Resources;
 use GuzzleHttp\Psr7\Request;
-use MicrosoftAzure\Storage\Common\Internal\Authentication\SharedKeyAuthScheme;
-use MicrosoftAzure\Storage\Common\Internal\Middlewares\CommonRequestMiddleware;
-use MicrosoftAzure\Storage\Common\Internal\Resources;
 use MicrosoftAzure\Storage\Tests\Framework\ReflectionTestBase;
 
 /**

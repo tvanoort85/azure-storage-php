@@ -19,9 +19,9 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
+use AzureOSS\Storage\Blob\Models\BlobProperties;
+use AzureOSS\Storage\Blob\Models\GetBlobResult;
 use GuzzleHttp\Psr7;
-use MicrosoftAzure\Storage\Blob\Models\BlobProperties;
-use MicrosoftAzure\Storage\Blob\Models\GetBlobResult;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

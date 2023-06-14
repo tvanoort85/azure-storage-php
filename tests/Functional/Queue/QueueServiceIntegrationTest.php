@@ -19,11 +19,11 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\Queue;
 
-use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
-use MicrosoftAzure\Storage\Queue\Models\CreateQueueOptions;
-use MicrosoftAzure\Storage\Queue\Models\ListMessagesOptions;
-use MicrosoftAzure\Storage\Queue\Models\ListQueuesOptions;
-use MicrosoftAzure\Storage\Queue\Models\PeekMessagesOptions;
+use AzureOSS\Storage\Common\Exceptions\ServiceException;
+use AzureOSS\Storage\Queue\Models\CreateQueueOptions;
+use AzureOSS\Storage\Queue\Models\ListMessagesOptions;
+use AzureOSS\Storage\Queue\Models\ListQueuesOptions;
+use AzureOSS\Storage\Queue\Models\PeekMessagesOptions;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 class QueueServiceIntegrationTest extends IntegrationTestBase

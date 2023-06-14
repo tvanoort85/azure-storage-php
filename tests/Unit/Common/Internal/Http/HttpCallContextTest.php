@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal\Http;
 
-use MicrosoftAzure\Storage\Common\Internal\Http\HttpCallContext;
+use AzureOSS\Storage\Common\Internal\Http\HttpCallContext;
 
 /**
  * Unit tests for class HttpCallContext

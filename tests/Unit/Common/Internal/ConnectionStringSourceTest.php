@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal;
 
-use MicrosoftAzure\Storage\Common\Internal\ConnectionStringSource;
+use AzureOSS\Storage\Common\Internal\ConnectionStringSource;
 
 /**
  * Unit tests for class ConnectionStringSource
@@ -30,7 +30,7 @@ class ConnectionStringSourceTest extends \PHPUnit\Framework\TestCase
 {
     protected function setUp()
     {
-        $property = new \ReflectionProperty('MicrosoftAzure\Storage\Common\Internal\ConnectionStringSource', '_isInitialized');
+        $property = new \ReflectionProperty('AzureOSS\Storage\Common\Internal\ConnectionStringSource', '_isInitialized');
         $property->setAccessible(true);
         $property->setValue(null);
     }

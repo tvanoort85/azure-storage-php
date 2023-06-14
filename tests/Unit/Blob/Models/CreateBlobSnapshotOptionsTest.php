@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\CreateBlobSnapshotOptions;
+use AzureOSS\Storage\Blob\Models\CreateBlobSnapshotOptions;
 
 /**
  * Unit tests for class CreateBlobSnapshotOptions

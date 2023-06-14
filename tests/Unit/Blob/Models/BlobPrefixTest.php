@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\BlobPrefix;
+use AzureOSS\Storage\Blob\Models\BlobPrefix;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

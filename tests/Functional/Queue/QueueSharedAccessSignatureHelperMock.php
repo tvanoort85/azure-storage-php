@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\Queue;
 
-use MicrosoftAzure\Storage\Queue\QueueSharedAccessSignatureHelper;
+use AzureOSS\Storage\Queue\QueueSharedAccessSignatureHelper;
 
 /**
  * Provides methods to access the account name and key for the

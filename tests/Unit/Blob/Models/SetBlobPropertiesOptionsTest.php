@@ -19,9 +19,9 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\AccessCondition;
-use MicrosoftAzure\Storage\Blob\Models\BlobProperties;
-use MicrosoftAzure\Storage\Blob\Models\SetBlobPropertiesOptions;
+use AzureOSS\Storage\Blob\Models\AccessCondition;
+use AzureOSS\Storage\Blob\Models\BlobProperties;
+use AzureOSS\Storage\Blob\Models\SetBlobPropertiesOptions;
 
 /**
  * Unit tests for class SetBlobPropertiesOptions

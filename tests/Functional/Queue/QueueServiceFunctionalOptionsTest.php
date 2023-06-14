@@ -19,16 +19,16 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\Queue;
 
-use MicrosoftAzure\Storage\Common\Models\Logging;
-use MicrosoftAzure\Storage\Common\Models\Metrics;
-use MicrosoftAzure\Storage\Common\Models\RetentionPolicy;
-use MicrosoftAzure\Storage\Common\Models\ServiceProperties;
-use MicrosoftAzure\Storage\Queue\Models\CreateMessageOptions;
-use MicrosoftAzure\Storage\Queue\Models\CreateQueueOptions;
-use MicrosoftAzure\Storage\Queue\Models\ListMessagesOptions;
-use MicrosoftAzure\Storage\Queue\Models\ListQueuesOptions;
-use MicrosoftAzure\Storage\Queue\Models\PeekMessagesOptions;
-use MicrosoftAzure\Storage\Queue\Models\QueueServiceOptions;
+use AzureOSS\Storage\Common\Models\Logging;
+use AzureOSS\Storage\Common\Models\Metrics;
+use AzureOSS\Storage\Common\Models\RetentionPolicy;
+use AzureOSS\Storage\Common\Models\ServiceProperties;
+use AzureOSS\Storage\Queue\Models\CreateMessageOptions;
+use AzureOSS\Storage\Queue\Models\CreateQueueOptions;
+use AzureOSS\Storage\Queue\Models\ListMessagesOptions;
+use AzureOSS\Storage\Queue\Models\ListQueuesOptions;
+use AzureOSS\Storage\Queue\Models\PeekMessagesOptions;
+use AzureOSS\Storage\Queue\Models\QueueServiceOptions;
 
 class QueueServiceFunctionalOptionsTest extends \PHPUnit\Framework\TestCase
 {

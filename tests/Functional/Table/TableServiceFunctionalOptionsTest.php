@@ -19,24 +19,24 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\Table;
 
-use MicrosoftAzure\Storage\Common\Models\Logging;
-use MicrosoftAzure\Storage\Common\Models\Metrics;
-use MicrosoftAzure\Storage\Common\Models\RetentionPolicy;
-use MicrosoftAzure\Storage\Common\Models\ServiceProperties;
-use MicrosoftAzure\Storage\Table\Models\DeleteEntityOptions;
-use MicrosoftAzure\Storage\Table\Models\EdmType;
-use MicrosoftAzure\Storage\Table\Models\Entity;
-use MicrosoftAzure\Storage\Table\Models\Filters\BinaryFilter;
-use MicrosoftAzure\Storage\Table\Models\Filters\ConstantFilter;
-use MicrosoftAzure\Storage\Table\Models\Filters\Filter;
-use MicrosoftAzure\Storage\Table\Models\Filters\PropertyNameFilter;
-use MicrosoftAzure\Storage\Table\Models\Filters\QueryStringFilter;
-use MicrosoftAzure\Storage\Table\Models\Filters\UnaryFilter;
-use MicrosoftAzure\Storage\Table\Models\Property;
-use MicrosoftAzure\Storage\Table\Models\Query;
-use MicrosoftAzure\Storage\Table\Models\QueryEntitiesOptions;
-use MicrosoftAzure\Storage\Table\Models\QueryTablesOptions;
-use MicrosoftAzure\Storage\Table\Models\TableServiceOptions;
+use AzureOSS\Storage\Common\Models\Logging;
+use AzureOSS\Storage\Common\Models\Metrics;
+use AzureOSS\Storage\Common\Models\RetentionPolicy;
+use AzureOSS\Storage\Common\Models\ServiceProperties;
+use AzureOSS\Storage\Table\Models\DeleteEntityOptions;
+use AzureOSS\Storage\Table\Models\EdmType;
+use AzureOSS\Storage\Table\Models\Entity;
+use AzureOSS\Storage\Table\Models\Filters\BinaryFilter;
+use AzureOSS\Storage\Table\Models\Filters\ConstantFilter;
+use AzureOSS\Storage\Table\Models\Filters\Filter;
+use AzureOSS\Storage\Table\Models\Filters\PropertyNameFilter;
+use AzureOSS\Storage\Table\Models\Filters\QueryStringFilter;
+use AzureOSS\Storage\Table\Models\Filters\UnaryFilter;
+use AzureOSS\Storage\Table\Models\Property;
+use AzureOSS\Storage\Table\Models\Query;
+use AzureOSS\Storage\Table\Models\QueryEntitiesOptions;
+use AzureOSS\Storage\Table\Models\QueryTablesOptions;
+use AzureOSS\Storage\Table\Models\TableServiceOptions;
 
 class TableServiceFunctionalOptionsTest extends \PHPUnit\Framework\TestCase
 {

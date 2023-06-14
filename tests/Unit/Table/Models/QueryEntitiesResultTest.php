@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Table\Models;
 
-use MicrosoftAzure\Storage\Table\Models\QueryEntitiesResult;
+use AzureOSS\Storage\Table\Models\QueryEntitiesResult;
 
 /**
  * Unit tests for class QueryEntitiesResult

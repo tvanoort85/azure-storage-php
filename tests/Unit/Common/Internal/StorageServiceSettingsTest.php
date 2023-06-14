@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal;
 
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Common\Internal\StorageServiceSettings;
+use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Common\Internal\StorageServiceSettings;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**
@@ -34,7 +34,7 @@ class StorageServiceSettingsTest extends \PHPUnit\Framework\TestCase
 
     protected function setUp()
     {
-        $property = new \ReflectionProperty('MicrosoftAzure\Storage\Common\Internal\StorageServiceSettings', 'isInitialized');
+        $property = new \ReflectionProperty('AzureOSS\Storage\Common\Internal\StorageServiceSettings', 'isInitialized');
         $property->setAccessible(true);
         $property->setValue(false);
     }

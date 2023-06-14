@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\Queue;
 
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Queue\Models\ListMessagesOptions;
+use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Queue\Models\ListMessagesOptions;
 use MicrosoftAzure\Storage\Tests\Framework\SASFunctionalTestBase;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 

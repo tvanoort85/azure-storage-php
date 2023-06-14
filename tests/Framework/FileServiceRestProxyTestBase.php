@@ -19,12 +19,12 @@
 
 namespace MicrosoftAzure\Storage\Tests\Framework;
 
-use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
-use MicrosoftAzure\Storage\Common\Middlewares\RetryMiddlewareFactory;
-use MicrosoftAzure\Storage\File\FileRestProxy;
-use MicrosoftAzure\Storage\File\Models\CreateDirectoryOptions;
-use MicrosoftAzure\Storage\File\Models\CreateShareOptions;
-use MicrosoftAzure\Storage\File\Models\ListSharesOptions;
+use AzureOSS\Storage\Common\Exceptions\ServiceException;
+use AzureOSS\Storage\Common\Middlewares\RetryMiddlewareFactory;
+use AzureOSS\Storage\File\FileRestProxy;
+use AzureOSS\Storage\File\Models\CreateDirectoryOptions;
+use AzureOSS\Storage\File\Models\CreateShareOptions;
+use AzureOSS\Storage\File\Models\ListSharesOptions;
 
 /**
  * TestBase class for each unit test class.

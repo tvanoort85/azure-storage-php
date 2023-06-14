@@ -19,11 +19,11 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal;
 
+use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Common\Internal\Serialization\XmlSerializer;
+use AzureOSS\Storage\Common\Internal\Utilities;
+use AzureOSS\Storage\Common\Models\ServiceProperties;
 use GuzzleHttp\Psr7;
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Common\Internal\Serialization\XmlSerializer;
-use MicrosoftAzure\Storage\Common\Internal\Utilities;
-use MicrosoftAzure\Storage\Common\Models\ServiceProperties;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

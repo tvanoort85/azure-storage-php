@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal;
 
-use MicrosoftAzure\Storage\Common\Exceptions\InvalidArgumentTypeException;
+use AzureOSS\Storage\Common\Exceptions\InvalidArgumentTypeException;
 
 /**
  * Unit tests for class InvalidArgumentTypeException

@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Models;
 
-use MicrosoftAzure\Storage\Common\Models\RangeDiff;
+use AzureOSS\Storage\Common\Models\RangeDiff;
 
 /**
  * Unit tests for class RangeDiff

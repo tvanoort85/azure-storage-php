@@ -17,11 +17,11 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace Tests\Unit\MicrosoftAzure\Storage\Table\Models\internal;
+namespace Tests\Unit\AzureOSS\Storage\Table\Models\internal;
 
-use MicrosoftAzure\Storage\Common\Internal\Utilities;
-use MicrosoftAzure\Storage\Table\Internal\JsonODataReaderWriter;
-use MicrosoftAzure\Storage\Table\Models\EdmType;
+use AzureOSS\Storage\Common\Internal\Utilities;
+use AzureOSS\Storage\Table\Internal\JsonODataReaderWriter;
+use AzureOSS\Storage\Table\Models\EdmType;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

@@ -19,9 +19,9 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\Table;
 
-use MicrosoftAzure\Storage\Common\Internal\Utilities;
-use MicrosoftAzure\Storage\Table\Models\Entity;
-use MicrosoftAzure\Storage\Table\Models\Filters\Filter;
+use AzureOSS\Storage\Common\Internal\Utilities;
+use AzureOSS\Storage\Table\Models\Entity;
+use AzureOSS\Storage\Table\Models\Filters\Filter;
 
 class FunctionalTestBase extends IntegrationTestBase
 {

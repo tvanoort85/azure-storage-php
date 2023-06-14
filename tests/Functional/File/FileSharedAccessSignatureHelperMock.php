@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\File;
 
-use MicrosoftAzure\Storage\File\FileSharedAccessSignatureHelper;
+use AzureOSS\Storage\File\FileSharedAccessSignatureHelper;
 
 /**
  * Provides methods to access the account name and key for the

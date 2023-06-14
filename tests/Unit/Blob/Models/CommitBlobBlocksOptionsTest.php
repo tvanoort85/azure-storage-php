@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\AccessCondition;
-use MicrosoftAzure\Storage\Blob\Models\CommitBlobBlocksOptions;
+use AzureOSS\Storage\Blob\Models\AccessCondition;
+use AzureOSS\Storage\Blob\Models\CommitBlobBlocksOptions;
 
 /**
  * Unit tests for class CommitBlobBlocksOptions

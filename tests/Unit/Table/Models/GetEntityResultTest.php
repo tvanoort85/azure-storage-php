@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Table\Models;
 
-use MicrosoftAzure\Storage\Table\Internal\JsonODataReaderWriter;
-use MicrosoftAzure\Storage\Table\Models\GetEntityResult;
+use AzureOSS\Storage\Table\Internal\JsonODataReaderWriter;
+use AzureOSS\Storage\Table\Models\GetEntityResult;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

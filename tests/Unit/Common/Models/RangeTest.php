@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Models;
 
-use MicrosoftAzure\Storage\Common\Models\Range;
+use AzureOSS\Storage\Common\Models\Range;
 
 /**
  * Unit tests for class Range

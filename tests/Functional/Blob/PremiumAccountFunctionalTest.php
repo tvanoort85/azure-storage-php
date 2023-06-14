@@ -19,10 +19,10 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\Blob;
 
-use MicrosoftAzure\Storage\Blob\BlobRestProxy;
-use MicrosoftAzure\Storage\Blob\Models\CopyBlobOptions;
-use MicrosoftAzure\Storage\Blob\Models\CreatePageBlobOptions;
-use MicrosoftAzure\Storage\Blob\Models\SetBlobTierOptions;
+use AzureOSS\Storage\Blob\BlobRestProxy;
+use AzureOSS\Storage\Blob\Models\CopyBlobOptions;
+use AzureOSS\Storage\Blob\Models\CreatePageBlobOptions;
+use AzureOSS\Storage\Blob\Models\SetBlobTierOptions;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

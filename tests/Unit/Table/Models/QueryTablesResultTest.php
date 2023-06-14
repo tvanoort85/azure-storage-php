@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Table\Models;
 
-use MicrosoftAzure\Storage\Table\Models\QueryTablesResult;
+use AzureOSS\Storage\Table\Models\QueryTablesResult;
 
 /**
  * Unit tests for class QueryTablesResult

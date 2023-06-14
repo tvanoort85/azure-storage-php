@@ -19,12 +19,12 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Models;
 
-use MicrosoftAzure\Storage\Common\Internal\Serialization\XmlSerializer;
-use MicrosoftAzure\Storage\Common\Internal\Utilities;
-use MicrosoftAzure\Storage\Common\Models\GetServicePropertiesResult;
-use MicrosoftAzure\Storage\Common\Models\Logging;
-use MicrosoftAzure\Storage\Common\Models\Metrics;
-use MicrosoftAzure\Storage\Common\Models\ServiceProperties;
+use AzureOSS\Storage\Common\Internal\Serialization\XmlSerializer;
+use AzureOSS\Storage\Common\Internal\Utilities;
+use AzureOSS\Storage\Common\Models\GetServicePropertiesResult;
+use AzureOSS\Storage\Common\Models\Logging;
+use AzureOSS\Storage\Common\Models\Metrics;
+use AzureOSS\Storage\Common\Models\ServiceProperties;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

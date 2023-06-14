@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Mock\Common\Internal\Authentication;
 
-use MicrosoftAzure\Storage\Common\Internal\Authentication\SharedAccessSignatureAuthScheme;
+use AzureOSS\Storage\Common\Internal\Authentication\SharedAccessSignatureAuthScheme;
 
 /**
  * Mock class to wrap SharedAccessSignatureAuthScheme class.

@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal\Serialization;
 
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Common\Internal\Serialization\JsonSerializer;
+use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Common\Internal\Serialization\JsonSerializer;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**
@@ -120,7 +120,7 @@ class JsonSerializerTest extends \PHPUnit\Framework\TestCase
         $jsonSerializer = new JsonSerializer();
         $testData = null;
         $expected = '';
-        $this->expectException('MicrosoftAzure\Storage\Common\Exceptions\InvalidArgumentTypeException');
+        $this->expectException('AzureOSS\Storage\Common\Exceptions\InvalidArgumentTypeException');
         $this->expectExceptionMessage(sprintf(Resources::INVALID_PARAM_MSG, 'array', 'array'));
 
         // Test

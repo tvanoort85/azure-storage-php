@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
 
-use MicrosoftAzure\Storage\Blob\Models\BlobType;
+use AzureOSS\Storage\Blob\Models\BlobType;
 
 /**
  * Unit tests for class BlobType

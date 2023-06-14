@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Models;
 
-use MicrosoftAzure\Storage\Common\Models\CORS;
+use AzureOSS\Storage\Common\Models\CORS;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

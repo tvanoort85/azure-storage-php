@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\Blob;
 
-use MicrosoftAzure\Storage\Blob\BlobRestProxy;
-use MicrosoftAzure\Storage\Blob\Models\SetBlobTierOptions;
+use AzureOSS\Storage\Blob\BlobRestProxy;
+use AzureOSS\Storage\Blob\Models\SetBlobTierOptions;
 use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**

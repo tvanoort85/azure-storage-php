@@ -19,9 +19,9 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Table\Models;
 
-use MicrosoftAzure\Storage\Table\Models\BatchOperation;
-use MicrosoftAzure\Storage\Table\Models\BatchOperationParameterName;
-use MicrosoftAzure\Storage\Table\Models\BatchOperationType;
+use AzureOSS\Storage\Table\Models\BatchOperation;
+use AzureOSS\Storage\Table\Models\BatchOperationParameterName;
+use AzureOSS\Storage\Table\Models\BatchOperationType;
 
 /**
  * Unit tests for class BatchOperation

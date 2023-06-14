@@ -19,7 +19,7 @@
 
 namespace MicrosoftAzure\Storage\Tests\Functional\Blob;
 
-use MicrosoftAzure\Storage\Blob\BlobSharedAccessSignatureHelper;
+use AzureOSS\Storage\Blob\BlobSharedAccessSignatureHelper;
 
 /**
  * Provides methods to access the account name and key for the

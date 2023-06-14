@@ -19,8 +19,8 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\File\Models;
 
-use MicrosoftAzure\Storage\File\Internal\FileResources;
-use MicrosoftAzure\Storage\File\Models\FileAccessPolicy;
+use AzureOSS\Storage\File\Internal\FileResources;
+use AzureOSS\Storage\File\Models\FileAccessPolicy;
 use MicrosoftAzure\Storage\Tests\Unit\Common\Models\AccessPolicyTest;
 
 /**

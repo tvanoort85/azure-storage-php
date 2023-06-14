@@ -19,12 +19,12 @@
 
 namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal;
 
+use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Common\Internal\ServiceRestProxy;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Common\Internal\ServiceRestProxy;
 use MicrosoftAzure\Storage\Tests\Framework\ReflectionTestBase;
 
 /**
@@ -247,7 +247,7 @@ class ServiceRestProxyTest extends ReflectionTestBase
     public function testOnRejectedWithRequestExceptionUnexpectedResponse($proxy)
     {
         // Setup
-        $this->expectException(\MicrosoftAzure\Storage\Common\Exceptions\ServiceException::class);
+        $this->expectException(\AzureOSS\Storage\Common\Exceptions\ServiceException::class);
         $onRejected = self::getMethod('onRejected', $proxy);
 
         $request = new Request('GET', 'http://www.bing.com');
