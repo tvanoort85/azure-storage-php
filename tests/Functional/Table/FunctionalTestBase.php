@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Table;
+namespace AzureOSS\Storage\Tests\Functional\Table;
 
 use AzureOSS\Storage\Common\Internal\Utilities;
 use AzureOSS\Storage\Table\Models\Entity;
@@ -27,7 +27,7 @@ class FunctionalTestBase extends IntegrationTestBase
 {
     private static $isOneTimeSetup = false;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         if (!self::$isOneTimeSetup) {
@@ -46,7 +46,7 @@ class FunctionalTestBase extends IntegrationTestBase
         }
     }
 
-    public static function tearDownAfterClass()
+    public static function tearDownAfterClass(): void
     {
         if (self::$isOneTimeSetup) {
             $testBase = new FunctionalTestBase();

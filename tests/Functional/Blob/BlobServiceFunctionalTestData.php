@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Blob;
+namespace AzureOSS\Storage\Tests\Functional\Blob;
 
 use AzureOSS\Storage\Blob\Models\AccessCondition;
 use AzureOSS\Storage\Blob\Models\AppendBlockOptions;
@@ -43,7 +43,7 @@ use AzureOSS\Storage\Common\Models\Range;
 use AzureOSS\Storage\Common\Models\RangeDiff;
 use AzureOSS\Storage\Common\Models\RetentionPolicy;
 use AzureOSS\Storage\Common\Models\ServiceProperties;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 class BlobServiceFunctionalTestData
 {

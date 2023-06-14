@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Table\Models;
+namespace AzureOSS\Storage\Tests\Unit\Table\Models;
 
 use AzureOSS\Storage\Table\Models\EdmType;
 use AzureOSS\Storage\Table\Models\Filters\Filter;

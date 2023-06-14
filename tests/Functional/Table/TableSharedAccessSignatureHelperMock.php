@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Table;
+namespace AzureOSS\Storage\Tests\Functional\Table;
 
 use AzureOSS\Storage\Table\TableSharedAccessSignatureHelper;
 

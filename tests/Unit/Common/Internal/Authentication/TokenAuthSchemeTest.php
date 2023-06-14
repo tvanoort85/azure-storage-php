@@ -17,14 +17,14 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal\Authentication;
+namespace AzureOSS\Storage\Tests\Unit\Common\Internal\Authentication;
 
 use AzureOSS\Storage\Common\Internal\Authentication\TokenAuthScheme;
 use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Tests\Framework\ReflectionTestBase;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Uri;
-use MicrosoftAzure\Storage\Tests\Framework\ReflectionTestBase;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**
  * Unit tests for TokenAuthScheme class.

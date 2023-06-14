@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Framework;
+namespace AzureOSS\Storage\Tests\Framework;
 
 use AzureOSS\Storage\Common\Exceptions\ServiceException;
 use AzureOSS\Storage\Common\Middlewares\RetryMiddlewareFactory;
@@ -36,7 +36,7 @@ class FileServiceRestProxyTestBase extends ServiceRestProxyTestBase
     protected $createdShares;
     protected $createdDirectories;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $fileRestProxy = FileRestProxy::createFileService($this->connectionString);
@@ -156,7 +156,7 @@ class FileServiceRestProxyTestBase extends ServiceRestProxyTestBase
         return $result;
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         parent::tearDown();
 

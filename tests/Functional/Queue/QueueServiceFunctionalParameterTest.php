@@ -17,14 +17,14 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Queue;
+namespace AzureOSS\Storage\Tests\Functional\Queue;
 
 use AzureOSS\Storage\Common\Exceptions\ServiceException;
 use AzureOSS\Storage\Common\Internal\Resources;
 use AzureOSS\Storage\Queue\Models\ListMessagesOptions;
 use AzureOSS\Storage\Queue\Models\PeekMessagesOptions;
 use AzureOSS\Storage\Queue\Models\QueueServiceOptions;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 class QueueServiceFunctionalParameterTest extends FunctionalTestBase
 {

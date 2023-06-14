@@ -5257,16 +5257,6 @@ parameters:
 			path: src/Common/SharedAccessSignatureHelper.php
 
 		-
-			message: "#^Property AzureOSS\\\\Storage\\\\Common\\\\SharedAccessSignatureHelper\\:\\:\\$accountKey has no type specified\\.$#"
-			count: 1
-			path: src/Common/SharedAccessSignatureHelper.php
-
-		-
-			message: "#^Property AzureOSS\\\\Storage\\\\Common\\\\SharedAccessSignatureHelper\\:\\:\\$accountName has no type specified\\.$#"
-			count: 1
-			path: src/Common/SharedAccessSignatureHelper.php
-
-		-
 			message: "#^Method AzureOSS\\\\Storage\\\\File\\\\FileRestProxy\\:\\:abortCopy\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: src/File/FileRestProxy.php

@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Common;
+namespace AzureOSS\Storage\Tests\Functional\Common;
 
 use AzureOSS\Storage\Common\SharedAccessSignatureHelper;
 

@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Table;
+namespace AzureOSS\Storage\Tests\Functional\Table;
 
 use AzureOSS\Storage\Common\Exceptions\ServiceException;
 use AzureOSS\Storage\Table\Models\BatchOperations;
@@ -26,7 +26,7 @@ use AzureOSS\Storage\Table\Models\Entity;
 use AzureOSS\Storage\Table\Models\Filters\Filter;
 use AzureOSS\Storage\Table\Models\Query;
 use AzureOSS\Storage\Table\Models\QueryEntitiesOptions;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 class TableServiceFunctionalQueryTest extends FunctionalTestBase
 {
@@ -37,7 +37,7 @@ class TableServiceFunctionalQueryTest extends FunctionalTestBase
 
     private static $isOneTimeSetup = false;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         if (!self::$isOneTimeSetup) {
@@ -66,7 +66,7 @@ class TableServiceFunctionalQueryTest extends FunctionalTestBase
         }
     }
 
-    public static function tearDownAfterClass()
+    public static function tearDownAfterClass(): void
     {
         if (self::$isOneTimeSetup) {
             self::$isOneTimeSetup = false;

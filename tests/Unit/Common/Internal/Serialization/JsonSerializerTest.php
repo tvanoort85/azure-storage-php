@@ -17,11 +17,11 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal\Serialization;
+namespace AzureOSS\Storage\Tests\Unit\Common\Internal\Serialization;
 
 use AzureOSS\Storage\Common\Internal\Resources;
 use AzureOSS\Storage\Common\Internal\Serialization\JsonSerializer;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 /**
  * Unit tests for class XmlSerializer

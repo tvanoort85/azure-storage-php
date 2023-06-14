@@ -1,34 +1,14 @@
 <?php
 
-/**
- * LICENSE: The MIT License (the "License")
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- * https://github.com/azure/azure-storage-php/LICENSE
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- * PHP version 5
- *
- * @see      https://github.com/azure/azure-storage-php
- */
+declare(strict_types=1);
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Common;
+namespace AzureOSS\Storage\Tests\Unit\Common;
 
 use AzureOSS\Storage\Common\Internal\Resources;
 use AzureOSS\Storage\Common\SharedAccessSignatureHelper;
-use MicrosoftAzure\Storage\Tests\Framework\ReflectionTestBase;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\ReflectionTestBase;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
-/**
- * Unit tests for class SharedAccessSignatureHelper
- *
- * @see      https://github.com/azure/azure-storage-php
- */
 class SharedAccessSignatureHelperTest extends ReflectionTestBase
 {
     public function testConstruct()
@@ -233,7 +213,7 @@ class SharedAccessSignatureHelperTest extends ReflectionTestBase
                 } catch (\InvalidArgumentException $e) {
                     $message = $e->getMessage();
                 }
-                self::assertContains(
+                self::assertStringContainsString(
                     $expectedErrorMessage,
                     $message
                 );
@@ -273,7 +253,10 @@ class SharedAccessSignatureHelperTest extends ReflectionTestBase
 
         for ($i = 0; $i < count($resourceNames); ++$i) {
             // Test
-            $actual = $validateAndSanitizeSignedService->invokeArgs($sasHelper, ['test', Resources::RESOURCE_TYPE_BLOB, $resourceNames[$i]]);
+            $actual = $validateAndSanitizeSignedService->invokeArgs(
+                $sasHelper,
+                ['test', Resources::RESOURCE_TYPE_BLOB, $resourceNames[$i]]
+            );
 
             // Assert
             self::assertEquals($expected[$i], $actual);

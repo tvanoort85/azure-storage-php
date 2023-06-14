@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Table;
+namespace AzureOSS\Storage\Tests\Functional\Table;
 
 use AzureOSS\Storage\Common\Internal\Utilities;
 use AzureOSS\Storage\Table\Models\EdmType;
@@ -29,7 +29,7 @@ use AzureOSS\Storage\Table\Models\Filters\PropertyNameFilter;
 use AzureOSS\Storage\Table\Models\Filters\QueryStringFilter;
 use AzureOSS\Storage\Table\Models\Filters\UnaryFilter;
 use AzureOSS\Storage\Table\Models\Property;
-use MicrosoftAzure\Storage\Tests\Functional\Table\Enums\MutatePivot;
+use AzureOSS\Storage\Tests\Functional\Table\Enums\MutatePivot;
 
 class TableServiceFunctionalTestUtils
 {

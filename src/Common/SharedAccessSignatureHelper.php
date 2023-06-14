@@ -30,8 +30,8 @@ use AzureOSS\Storage\Common\Internal\Validate;
  */
 class SharedAccessSignatureHelper
 {
-    protected $accountName;
-    protected $accountKey;
+    protected string $accountName;
+    protected string $accountKey;
 
     /**
      * Constructor.
@@ -39,7 +39,7 @@ class SharedAccessSignatureHelper
      * @param string $accountName the name of the storage account.
      * @param string $accountKey  the shared key of the storage account
      */
-    public function __construct($accountName, $accountKey)
+    public function __construct(string $accountName, string $accountKey)
     {
         Validate::canCastAsString($accountName, 'accountName');
         Validate::notNullOrEmpty($accountName, 'accountName');

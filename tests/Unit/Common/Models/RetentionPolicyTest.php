@@ -17,11 +17,11 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Common\Models;
+namespace AzureOSS\Storage\Tests\Unit\Common\Models;
 
 use AzureOSS\Storage\Common\Internal\Utilities;
 use AzureOSS\Storage\Common\Models\RetentionPolicy;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 /**
  * Unit tests for class RetentionPolicy

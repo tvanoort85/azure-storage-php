@@ -17,12 +17,12 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Blob;
+namespace AzureOSS\Storage\Tests\Functional\Blob;
 
 use AzureOSS\Storage\Blob\BlobRestProxy;
 use AzureOSS\Storage\Blob\Models\PublicAccessType;
 use AzureOSS\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 /**
  * Tests for account SAS proxy tests.
@@ -35,7 +35,7 @@ class AnonymousAccessFunctionalTest extends \PHPUnit\Framework\TestCase
     private static $blobRestProxy;
     private static $accountName;
 
-    public static function setUpBeforeClass()
+    public static function setUpBeforeClass(): void
     {
         parent::setUpBeforeClass();
         $connectionString = TestResources::getWindowsAzureStorageServicesConnectionString();
@@ -43,14 +43,14 @@ class AnonymousAccessFunctionalTest extends \PHPUnit\Framework\TestCase
         self::$accountName = self::$blobRestProxy->getAccountName();
     }
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         $this->containerName = TestResources::getInterestingName('con');
         self::$blobRestProxy->createContainer($this->containerName);
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         self::$blobRestProxy->deleteContainer($this->containerName);
         parent::tearDown();

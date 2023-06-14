@@ -22,7 +22,7 @@ namespace Tests\Unit\AzureOSS\Storage\Table\Models\internal;
 use AzureOSS\Storage\Common\Internal\Utilities;
 use AzureOSS\Storage\Table\Internal\JsonODataReaderWriter;
 use AzureOSS\Storage\Table\Models\EdmType;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 /**
  * Unit tests for class JsonODataReaderWriter

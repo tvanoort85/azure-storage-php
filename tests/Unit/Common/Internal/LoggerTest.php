@@ -17,11 +17,11 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal;
+namespace AzureOSS\Storage\Tests\Unit\Common\Internal;
 
 use AzureOSS\Storage\Common\Internal\Resources;
 use AzureOSS\Storage\Common\Logger;
-use MicrosoftAzure\Storage\Tests\Framework\VirtualFileSystem;
+use AzureOSS\Storage\Tests\Framework\VirtualFileSystem;
 
 /**
  * Unit tests for class Logger

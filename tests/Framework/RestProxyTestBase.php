@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Framework;
+namespace AzureOSS\Storage\Tests\Framework;
 
 use AzureOSS\Storage\Common\Internal\Serialization\XmlSerializer;
 use AzureOSS\Storage\Common\Logger;
@@ -53,8 +53,7 @@ class RestProxyTestBase extends \PHPUnit\Framework\TestCase
         // Enable PHP asserts
         assert_options(ASSERT_ACTIVE, 1);
         assert_options(ASSERT_WARNING, 0);
-        assert_options(ASSERT_QUIET_EVAL, 1);
-        assert_options(ASSERT_CALLBACK, 'MicrosoftAzure\Storage\Tests\Framework\RestProxyTestBase::assertHandler');
+        assert_options(ASSERT_CALLBACK, 'AzureOSS\Storage\Tests\Framework\RestProxyTestBase::assertHandler');
     }
 
     public function setProxy($serviceRestProxy)
@@ -62,7 +61,7 @@ class RestProxyTestBase extends \PHPUnit\Framework\TestCase
         $this->restProxy = $serviceRestProxy;
     }
 
-    protected function onNotSuccessfulTest(\Exception $e)
+    protected function onNotSuccessfulTest(\Throwable $e): void
     {
         parent::onNotSuccessfulTest($e);
 

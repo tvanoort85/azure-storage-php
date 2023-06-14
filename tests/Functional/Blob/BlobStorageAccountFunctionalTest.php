@@ -17,11 +17,11 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Blob;
+namespace AzureOSS\Storage\Tests\Functional\Blob;
 
 use AzureOSS\Storage\Blob\BlobRestProxy;
 use AzureOSS\Storage\Blob\Models\SetBlobTierOptions;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 /**
  * Tests for a blob storage account, such as block blob tier.
@@ -37,7 +37,7 @@ class BlobStorageAccountFunctionalTest extends \PHPUnit\Framework\TestCase
     private static $accountName;
     private $containerName;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -54,7 +54,7 @@ class BlobStorageAccountFunctionalTest extends \PHPUnit\Framework\TestCase
         self::$blobRestProxy->createContainer($this->containerName);
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         if (self::$blobRestProxy) {
             self::$blobRestProxy->deleteContainer($this->containerName);

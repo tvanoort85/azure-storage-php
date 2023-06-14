@@ -17,12 +17,12 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Table\Models;
+namespace AzureOSS\Storage\Tests\Unit\Table\Models;
 
 use AzureOSS\Storage\Table\Internal\JsonODataReaderWriter;
 use AzureOSS\Storage\Table\Internal\MimeReaderWriter;
 use AzureOSS\Storage\Table\Models\BatchResult;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 /**
  * Unit tests for class BatchResult

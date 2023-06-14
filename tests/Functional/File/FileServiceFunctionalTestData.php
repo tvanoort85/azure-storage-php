@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\File;
+namespace AzureOSS\Storage\Tests\Functional\File;
 
 use AzureOSS\Storage\Common\Internal\Resources;
 use AzureOSS\Storage\Common\Models\CORS;
@@ -33,7 +33,7 @@ use AzureOSS\Storage\File\Models\GetFileOptions;
 use AzureOSS\Storage\File\Models\ListDirectoriesAndFilesOptions;
 use AzureOSS\Storage\File\Models\ListSharesOptions;
 use AzureOSS\Storage\File\Models\ShareACL;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 class FileServiceFunctionalTestData
 {

@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Common;
+namespace AzureOSS\Storage\Tests\Unit\Common;
 
 use AzureOSS\Storage\Common\Models\ServiceOptions;
 

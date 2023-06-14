@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Table;
+namespace AzureOSS\Storage\Tests\Unit\Table;
 
 use AzureOSS\Storage\Common\Models\ServiceProperties;
 use AzureOSS\Storage\Table\Internal\ITable;
@@ -29,8 +29,8 @@ use AzureOSS\Storage\Table\Models\QueryEntitiesOptions;
 use AzureOSS\Storage\Table\Models\QueryTablesOptions;
 use AzureOSS\Storage\Table\Models\TableACL;
 use AzureOSS\Storage\Table\TableRestProxy;
-use MicrosoftAzure\Storage\Tests\Framework\TableServiceRestProxyTestBase;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TableServiceRestProxyTestBase;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 /**
  * Unit tests for class TableRestProxy

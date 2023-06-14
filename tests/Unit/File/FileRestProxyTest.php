@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\File;
+namespace AzureOSS\Storage\Tests\Unit\File;
 
 use AzureOSS\Storage\Common\Internal\Resources;
 use AzureOSS\Storage\Common\Models\Range;
@@ -28,8 +28,8 @@ use AzureOSS\Storage\File\Models\CreateDirectoryOptions;
 use AzureOSS\Storage\File\Models\CreateFileFromContentOptions;
 use AzureOSS\Storage\File\Models\ListDirectoriesAndFilesOptions;
 use AzureOSS\Storage\File\Models\ShareACL;
-use MicrosoftAzure\Storage\Tests\Framework\FileServiceRestProxyTestBase;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\FileServiceRestProxyTestBase;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 /**
  * Unit tests for class FileRestProxy

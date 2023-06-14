@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
+namespace AzureOSS\Storage\Tests\Unit\Blob\Models;
 
 use AzureOSS\Storage\Blob\Models\PublicAccessType;
 use AzureOSS\Storage\Common\Internal\Resources;

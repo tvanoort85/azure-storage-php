@@ -37,11 +37,3 @@ ARG USER=${USER:-azure-oss}
 RUN usermod -u $UID $USER && groupmod -g $GID $USER
 
 WORKDIR /app
-
-
-
-
-
-
-
-WORKDIR /app

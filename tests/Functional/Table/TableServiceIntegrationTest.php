@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Table;
+namespace AzureOSS\Storage\Tests\Functional\Table;
 
 use AzureOSS\Storage\Common\Exceptions\ServiceException;
 use AzureOSS\Storage\Common\Internal\Utilities;
@@ -31,7 +31,7 @@ use AzureOSS\Storage\Table\Models\Query;
 use AzureOSS\Storage\Table\Models\QueryEntitiesOptions;
 use AzureOSS\Storage\Table\Models\QueryTablesOptions;
 use AzureOSS\Storage\Table\Models\UpdateEntityResult;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 class TableServiceIntegrationTest extends IntegrationTestBase
 {
@@ -52,7 +52,7 @@ class TableServiceIntegrationTest extends IntegrationTestBase
 
     private static $isOneTimeSetup = false;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         if (!self::$isOneTimeSetup) {
@@ -94,7 +94,7 @@ class TableServiceIntegrationTest extends IntegrationTestBase
         $this->createTables(self::$testTablesPrefix, self::$testTables);
     }
 
-    public static function tearDownAfterClass()
+    public static function tearDownAfterClass(): void
     {
         if (self::$isOneTimeSetup) {
             $tmp = new TableServiceIntegrationTest();
@@ -106,7 +106,7 @@ class TableServiceIntegrationTest extends IntegrationTestBase
         parent::tearDownAfterClass();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         // tearDown of parent will delete the container created in setUp
         // Do nothing here

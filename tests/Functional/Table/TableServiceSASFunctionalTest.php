@@ -17,11 +17,11 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Table;
+namespace AzureOSS\Storage\Tests\Functional\Table;
 
 use AzureOSS\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Tests\Framework\SASFunctionalTestBase;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\SASFunctionalTestBase;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 /**
  * Tests for service SAS proxy tests.

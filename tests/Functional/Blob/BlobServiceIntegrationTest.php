@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Blob;
+namespace AzureOSS\Storage\Tests\Functional\Blob;
 
 use AzureOSS\Storage\Blob\Models\AccessCondition;
 use AzureOSS\Storage\Blob\Models\BlobBlockType;
@@ -38,7 +38,7 @@ use AzureOSS\Storage\Blob\Models\SetBlobPropertiesOptions;
 use AzureOSS\Storage\Common\Exceptions\ServiceException;
 use AzureOSS\Storage\Common\Internal\Utilities;
 use AzureOSS\Storage\Common\Models\Range;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 class BlobServiceIntegrationTest extends IntegrationTestBase
 {
@@ -57,7 +57,7 @@ class BlobServiceIntegrationTest extends IntegrationTestBase
 
     private static $isOneTimeSetup = false;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         if (!self::$isOneTimeSetup) {
@@ -94,7 +94,7 @@ class BlobServiceIntegrationTest extends IntegrationTestBase
         $this->createContainers(self::$_testContainers, self::$_testContainersPrefix);
     }
 
-    public static function tearDownAfterClass()
+    public static function tearDownAfterClass(): void
     {
         if (self::$isOneTimeSetup) {
             $inst = new IntegrationTestBase();
@@ -106,7 +106,7 @@ class BlobServiceIntegrationTest extends IntegrationTestBase
         parent::tearDownAfterClass();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         // tearDown of parent will delete the container created in setUp
         // Do nothing here

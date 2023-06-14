@@ -17,11 +17,11 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Queue\Models;
+namespace AzureOSS\Storage\Tests\Unit\Queue\Models;
 
 use AzureOSS\Storage\Queue\Internal\QueueResources;
 use AzureOSS\Storage\Queue\Models\QueueAccessPolicy;
-use MicrosoftAzure\Storage\Tests\Unit\Common\Models\AccessPolicyTest;
+use AzureOSS\Storage\Tests\Unit\Common\Models\AccessPolicyTest;
 
 /**
  * Unit tests for class QueueAccessPolicy

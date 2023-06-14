@@ -17,15 +17,15 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Queue;
+namespace AzureOSS\Storage\Tests\Functional\Queue;
 
-use MicrosoftAzure\Storage\Tests\Framework\QueueServiceRestProxyTestBase;
+use AzureOSS\Storage\Tests\Framework\QueueServiceRestProxyTestBase;
 
 class IntegrationTestBase extends QueueServiceRestProxyTestBase
 {
     private static $isOneTimeSetup = false;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         if (!self::$isOneTimeSetup) {
@@ -33,7 +33,7 @@ class IntegrationTestBase extends QueueServiceRestProxyTestBase
         }
     }
 
-    public static function tearDownAfterClass()
+    public static function tearDownAfterClass(): void
     {
         if (self::$isOneTimeSetup) {
             $integrationTestBase = new IntegrationTestBase();

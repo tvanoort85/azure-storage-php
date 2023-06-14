@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Framework;
+namespace AzureOSS\Storage\Tests\Framework;
 
 use AzureOSS\Storage\Blob\BlobRestProxy;
 use AzureOSS\Storage\Common\Exceptions\ServiceException;
@@ -57,7 +57,7 @@ class SASFunctionalTestBase extends \PHPUnit\Framework\TestCase
             );
     }
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         $this->createdContainer = [];
@@ -82,7 +82,7 @@ class SASFunctionalTestBase extends \PHPUnit\Framework\TestCase
             FileRestProxy::createFileService($connectionString);
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         $this->blobRestProxy =
             BlobRestProxy::createBlobService($this->connectionString);

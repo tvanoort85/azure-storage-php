@@ -17,14 +17,14 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal;
+namespace AzureOSS\Storage\Tests\Unit\Common\Internal;
 
 use AzureOSS\Storage\Common\Internal\Resources;
 use AzureOSS\Storage\Common\Internal\Serialization\XmlSerializer;
 use AzureOSS\Storage\Common\Internal\Utilities;
 use AzureOSS\Storage\Common\Models\ServiceProperties;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 use GuzzleHttp\Psr7;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 /**
  * Unit tests for class Utilities

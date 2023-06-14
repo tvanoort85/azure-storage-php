@@ -17,10 +17,10 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Queue\Models;
+namespace AzureOSS\Storage\Tests\Unit\Queue\Models;
 
 use AzureOSS\Storage\Queue\Models\QueueACL;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 /**
  * Unit tests for class QueueACL

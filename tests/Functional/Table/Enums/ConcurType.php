@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Table\Enums;
+namespace AzureOSS\Storage\Tests\Functional\Table\Enums;
 
 class ConcurType
 {

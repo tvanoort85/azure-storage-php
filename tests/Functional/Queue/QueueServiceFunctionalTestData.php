@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Queue;
+namespace AzureOSS\Storage\Tests\Functional\Queue;
 
 use AzureOSS\Storage\Common\Internal\Resources;
 use AzureOSS\Storage\Common\Models\CORS;
@@ -28,7 +28,7 @@ use AzureOSS\Storage\Common\Models\ServiceProperties;
 use AzureOSS\Storage\Queue\Models\CreateMessageOptions;
 use AzureOSS\Storage\Queue\Models\CreateQueueOptions;
 use AzureOSS\Storage\Queue\Models\ListQueuesOptions;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 class QueueServiceFunctionalTestData
 {

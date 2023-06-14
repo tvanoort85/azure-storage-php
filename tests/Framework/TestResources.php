@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Framework;
+namespace AzureOSS\Storage\Tests\Framework;
 
 use AzureOSS\Storage\Common\Internal\Http\HttpCallContext;
 use AzureOSS\Storage\Common\Internal\Resources;

@@ -17,13 +17,13 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\File\Models;
+namespace AzureOSS\Storage\Tests\Unit\File\Models;
 
 use AzureOSS\Storage\File\Internal\FileResources as Resources;
 use AzureOSS\Storage\File\Models\Directory;
 use AzureOSS\Storage\File\Models\File;
 use AzureOSS\Storage\File\Models\ListDirectoriesAndFilesResult;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 /**
  * Unit tests for class ListDirectoriesAndFilesResult

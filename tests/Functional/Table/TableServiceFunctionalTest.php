@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Table;
+namespace AzureOSS\Storage\Tests\Functional\Table;
 
 use AzureOSS\Storage\Common\Exceptions\ServiceException;
 use AzureOSS\Storage\Common\Internal\Utilities;
@@ -37,15 +37,15 @@ use AzureOSS\Storage\Table\Models\TableServiceCreateOptions;
 use AzureOSS\Storage\Table\Models\TableServiceOptions;
 use AzureOSS\Storage\Table\Models\UpdateEntityResult;
 use AzureOSS\Storage\Table\TableRestProxy;
+use AzureOSS\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Functional\Table\Enums\ConcurType;
+use AzureOSS\Storage\Tests\Functional\Table\Enums\MutatePivot;
+use AzureOSS\Storage\Tests\Functional\Table\Enums\OpType;
+use AzureOSS\Storage\Tests\Functional\Table\Models\BatchWorkerConfig;
+use AzureOSS\Storage\Tests\Functional\Table\Models\FakeTableInfoEntry;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\Psr7\Response;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
-use MicrosoftAzure\Storage\Tests\Functional\Table\Enums\ConcurType;
-use MicrosoftAzure\Storage\Tests\Functional\Table\Enums\MutatePivot;
-use MicrosoftAzure\Storage\Tests\Functional\Table\Enums\OpType;
-use MicrosoftAzure\Storage\Tests\Functional\Table\Models\BatchWorkerConfig;
-use MicrosoftAzure\Storage\Tests\Functional\Table\Models\FakeTableInfoEntry;
 
 class TableServiceFunctionalTest extends FunctionalTestBase
 {

@@ -17,11 +17,11 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\File\Models;
+namespace AzureOSS\Storage\Tests\Unit\File\Models;
 
 use AzureOSS\Storage\Common\Internal\Utilities;
 use AzureOSS\Storage\File\Models\ListSharesResult;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 /**
  * Unit tests for class ListSharesResult

@@ -579,10 +579,8 @@ class Utilities
      * @param string $needle     postfix to match.
      * @param bool   $ignoreCase Set true to ignore case during the comparison;
      *                           otherwise, false
-     *
-     * @return bool
      */
-    public static function endsWith($haystack, $needle, $ignoreCase = false)
+    public static function endsWith(string $haystack, string $needle, bool $ignoreCase = false): bool
     {
         if ($ignoreCase) {
             $haystack = strtolower($haystack);

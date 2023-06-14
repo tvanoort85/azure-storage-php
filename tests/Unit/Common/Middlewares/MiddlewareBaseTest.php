@@ -17,14 +17,14 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Common\Middlewares;
+namespace AzureOSS\Storage\Tests\Unit\Common\Middlewares;
 
 use AzureOSS\Storage\Common\Middlewares\MiddlewareBase;
+use AzureOSS\Storage\Tests\Framework\ReflectionTestBase;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use MicrosoftAzure\Storage\Tests\Framework\ReflectionTestBase;
 
 /**
  * Unit tests for class MiddlewareBase

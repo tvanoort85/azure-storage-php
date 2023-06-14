@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Framework;
+namespace AzureOSS\Storage\Tests\Framework;
 
 use AzureOSS\Storage\Common\Internal\Resources;
 use AzureOSS\Storage\Common\Models\ServiceProperties;
@@ -55,7 +55,7 @@ class ServiceRestProxyTestBase extends RestProxyTestBase
         $this->connectionString = TestResources::getWindowsAzureStorageServicesConnectionString();
     }
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->_createDefaultProperties();
@@ -78,7 +78,7 @@ class ServiceRestProxyTestBase extends RestProxyTestBase
         $this->propertiesChanged = true;
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         parent::tearDown();
 

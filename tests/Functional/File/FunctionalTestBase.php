@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\File;
+namespace AzureOSS\Storage\Tests\Functional\File;
 
 use AzureOSS\Storage\Common\Exceptions\ServiceException;
 use AzureOSS\Storage\Common\Internal\StorageServiceSettings;
@@ -26,7 +26,7 @@ class FunctionalTestBase extends IntegrationTestBase
 {
     private static $isOneTimeSetup = false;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $settings = StorageServiceSettings::createFromConnectionString($this->connectionString);
@@ -50,7 +50,7 @@ class FunctionalTestBase extends IntegrationTestBase
         }
     }
 
-    public function tearDown()
+    public function tearDown(): void
     {
         foreach (FileServiceFunctionalTestData::$testShareNames as $name) {
             $this->safeDeleteShare($name);

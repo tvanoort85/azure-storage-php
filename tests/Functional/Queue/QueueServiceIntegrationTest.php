@@ -17,14 +17,14 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Queue;
+namespace AzureOSS\Storage\Tests\Functional\Queue;
 
 use AzureOSS\Storage\Common\Exceptions\ServiceException;
 use AzureOSS\Storage\Queue\Models\CreateQueueOptions;
 use AzureOSS\Storage\Queue\Models\ListMessagesOptions;
 use AzureOSS\Storage\Queue\Models\ListQueuesOptions;
 use AzureOSS\Storage\Queue\Models\PeekMessagesOptions;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 class QueueServiceIntegrationTest extends IntegrationTestBase
 {
@@ -44,7 +44,7 @@ class QueueServiceIntegrationTest extends IntegrationTestBase
     private static $creatableQueues;
     private static $testQueues;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         // Setup container names array (list of container names used by
@@ -78,7 +78,7 @@ class QueueServiceIntegrationTest extends IntegrationTestBase
         self::createQueues(self::$testQueuesPrefix, self::$testQueues);
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         parent::tearDown();
         self::deleteQueues(self::$testQueuesPrefix, self::$testQueues);

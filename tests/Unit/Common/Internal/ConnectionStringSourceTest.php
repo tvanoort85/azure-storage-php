@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal;
+namespace AzureOSS\Storage\Tests\Unit\Common\Internal;
 
 use AzureOSS\Storage\Common\Internal\ConnectionStringSource;
 
@@ -28,7 +28,7 @@ use AzureOSS\Storage\Common\Internal\ConnectionStringSource;
  */
 class ConnectionStringSourceTest extends \PHPUnit\Framework\TestCase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         $property = new \ReflectionProperty('AzureOSS\Storage\Common\Internal\ConnectionStringSource', '_isInitialized');
         $property->setAccessible(true);

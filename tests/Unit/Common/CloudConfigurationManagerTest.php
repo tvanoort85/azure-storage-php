@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Common;
+namespace AzureOSS\Storage\Tests\Unit\Common;
 
 use AzureOSS\Storage\Common\CloudConfigurationManager;
 use AzureOSS\Storage\Common\Internal\ConnectionStringSource;
@@ -32,7 +32,7 @@ class CloudConfigurationManagerTest extends \PHPUnit\Framework\TestCase
     private $_key = 'my_connection_string';
     private $_value = 'connection string value';
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $isInitialized = new \ReflectionProperty('AzureOSS\Storage\Common\CloudConfigurationManager', '_isInitialized');
         $isInitialized->setAccessible(true);

@@ -17,17 +17,17 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Blob;
+namespace AzureOSS\Storage\Tests\Functional\Blob;
 
 use AzureOSS\Storage\Common\Internal\StorageServiceSettings;
 use AzureOSS\Storage\Common\Internal\Utilities;
-use MicrosoftAzure\Storage\Tests\Framework\BlobServiceRestProxyTestBase;
+use AzureOSS\Storage\Tests\Framework\BlobServiceRestProxyTestBase;
 
 class IntegrationTestBase extends BlobServiceRestProxyTestBase
 {
     private static $isOneTimeSetup = false;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         if (!self::$isOneTimeSetup) {
@@ -35,7 +35,7 @@ class IntegrationTestBase extends BlobServiceRestProxyTestBase
         }
     }
 
-    public static function tearDownAfterClass()
+    public static function tearDownAfterClass(): void
     {
         if (self::$isOneTimeSetup) {
             $integrationTestBase = new IntegrationTestBase();

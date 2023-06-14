@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Mock\Common\Internal\Authentication;
+namespace AzureOSS\Storage\Tests\Mock\Common\Internal\Authentication;
 
 use AzureOSS\Storage\Common\Internal\Authentication\SharedAccessSignatureAuthScheme;
 

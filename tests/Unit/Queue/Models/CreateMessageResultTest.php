@@ -17,11 +17,11 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\unit\Queue\Models;
+namespace AzureOSS\Storage\Tests\unit\Queue\Models;
 
 use AzureOSS\Storage\Common\Internal\Utilities;
 use AzureOSS\Storage\Queue\Models\CreateMessageResult;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 /**
  * Unit tests for class CreateMessageResult

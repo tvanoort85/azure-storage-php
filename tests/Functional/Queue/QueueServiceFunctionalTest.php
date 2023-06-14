@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Queue;
+namespace AzureOSS\Storage\Tests\Functional\Queue;
 
 use AzureOSS\Storage\Common\Exceptions\ServiceException;
 use AzureOSS\Storage\Common\LocationMode;
@@ -30,10 +30,10 @@ use AzureOSS\Storage\Queue\Models\ListQueuesOptions;
 use AzureOSS\Storage\Queue\Models\PeekMessagesOptions;
 use AzureOSS\Storage\Queue\Models\QueueServiceOptions;
 use AzureOSS\Storage\Queue\QueueRestProxy;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\Psr7\Response;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 class QueueServiceFunctionalTest extends FunctionalTestBase
 {

@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Common\Models;
+namespace AzureOSS\Storage\Tests\Unit\Common\Models;
 
 use AzureOSS\Storage\Common\Internal\Serialization\XmlSerializer;
 use AzureOSS\Storage\Common\Internal\Utilities;
@@ -25,7 +25,7 @@ use AzureOSS\Storage\Common\Models\GetServicePropertiesResult;
 use AzureOSS\Storage\Common\Models\Logging;
 use AzureOSS\Storage\Common\Models\Metrics;
 use AzureOSS\Storage\Common\Models\ServiceProperties;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 /**
  * Unit tests for class ServiceProperties

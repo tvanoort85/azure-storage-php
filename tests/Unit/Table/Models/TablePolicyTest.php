@@ -17,11 +17,11 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Table\Models;
+namespace AzureOSS\Storage\Tests\Unit\Table\Models;
 
 use AzureOSS\Storage\Table\Internal\TableResources;
 use AzureOSS\Storage\Table\Models\TableAccessPolicy;
-use MicrosoftAzure\Storage\Tests\Unit\Common\Models\AccessPolicyTest;
+use AzureOSS\Storage\Tests\Unit\Common\Models\AccessPolicyTest;
 
 /**
  * Unit tests for class TableAccessPolicy

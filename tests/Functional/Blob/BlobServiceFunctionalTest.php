@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Blob;
+namespace AzureOSS\Storage\Tests\Functional\Blob;
 
 use AzureOSS\Storage\Blob\BlobRestProxy;
 use AzureOSS\Storage\Blob\Models\AccessCondition;
@@ -48,11 +48,11 @@ use AzureOSS\Storage\Common\LocationMode;
 use AzureOSS\Storage\Common\Middlewares\HistoryMiddleware;
 use AzureOSS\Storage\Common\Middlewares\RetryMiddlewareFactory;
 use AzureOSS\Storage\Common\Models\Range;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\Psr7\Response;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
 
 class BlobServiceFunctionalTest extends FunctionalTestBase
 {

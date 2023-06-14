@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Framework;
+namespace AzureOSS\Storage\Tests\Framework;
 
 use AzureOSS\Storage\Common\Middlewares\RetryMiddlewareFactory;
 use AzureOSS\Storage\Queue\QueueRestProxy;
@@ -31,7 +31,7 @@ class QueueServiceRestProxyTestBase extends ServiceRestProxyTestBase
 {
     private $_createdQueues;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $queueRestProxy = QueueRestProxy::createQueueService($this->connectionString);
@@ -64,7 +64,7 @@ class QueueServiceRestProxyTestBase extends ServiceRestProxyTestBase
         }
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         parent::tearDown();
 

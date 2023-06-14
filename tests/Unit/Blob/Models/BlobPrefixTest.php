@@ -17,10 +17,10 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Blob\Models;
+namespace AzureOSS\Storage\Tests\Unit\Blob\Models;
 
 use AzureOSS\Storage\Blob\Models\BlobPrefix;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 /**
  * Unit tests for class BlobPrefix

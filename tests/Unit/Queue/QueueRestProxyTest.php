@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Queue;
+namespace AzureOSS\Storage\Tests\Unit\Queue;
 
 use AzureOSS\Storage\Common\Models\ServiceProperties;
 use AzureOSS\Storage\Queue\Internal\IQueue;
@@ -28,8 +28,8 @@ use AzureOSS\Storage\Queue\Models\PeekMessagesOptions;
 use AzureOSS\Storage\Queue\Models\QueueACL;
 use AzureOSS\Storage\Queue\Models\QueueServiceOptions;
 use AzureOSS\Storage\Queue\QueueRestProxy;
-use MicrosoftAzure\Storage\Tests\Framework\QueueServiceRestProxyTestBase;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\QueueServiceRestProxyTestBase;
+use AzureOSS\Storage\Tests\Framework\TestResources;
 
 /**
  * Unit tests for QueueRestProxy class

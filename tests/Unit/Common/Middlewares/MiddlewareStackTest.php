@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Common\Middlewares;
+namespace AzureOSS\Storage\Tests\Unit\Common\Middlewares;
 
 use AzureOSS\Storage\Common\Middlewares\MiddlewareStack;
 

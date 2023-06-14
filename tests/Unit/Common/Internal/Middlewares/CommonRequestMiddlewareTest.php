@@ -17,13 +17,13 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal\Middlewares;
+namespace AzureOSS\Storage\Tests\Unit\Common\Internal\Middlewares;
 
 use AzureOSS\Storage\Common\Internal\Authentication\SharedKeyAuthScheme;
 use AzureOSS\Storage\Common\Internal\Middlewares\CommonRequestMiddleware;
 use AzureOSS\Storage\Common\Internal\Resources;
+use AzureOSS\Storage\Tests\Framework\ReflectionTestBase;
 use GuzzleHttp\Psr7\Request;
-use MicrosoftAzure\Storage\Tests\Framework\ReflectionTestBase;
 
 /**
  * Unit tests for class CommonRequestMiddleware

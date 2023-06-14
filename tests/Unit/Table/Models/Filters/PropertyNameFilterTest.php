@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Table\Models\Filters;
+namespace AzureOSS\Storage\Tests\Unit\Table\Models\Filters;
 
 use AzureOSS\Storage\Table\Models\Filters\PropertyNameFilter;
 

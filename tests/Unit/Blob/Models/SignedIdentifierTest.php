@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Common\Models;
+namespace AzureOSS\Storage\Tests\Unit\Common\Models;
 
 use AzureOSS\Storage\Blob\Models\BlobAccessPolicy;
 use AzureOSS\Storage\Common\Models\SignedIdentifier;

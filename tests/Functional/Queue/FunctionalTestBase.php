@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Queue;
+namespace AzureOSS\Storage\Tests\Functional\Queue;
 
 use AzureOSS\Storage\Common\Internal\StorageServiceSettings;
 
@@ -27,7 +27,7 @@ class FunctionalTestBase extends IntegrationTestBase
 
     protected $accountName;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $settings = StorageServiceSettings::createFromConnectionString($this->connectionString);
@@ -52,7 +52,7 @@ class FunctionalTestBase extends IntegrationTestBase
         }
     }
 
-    public static function tearDownAfterClass()
+    public static function tearDownAfterClass(): void
     {
         if (self::$isOneTimeSetup) {
             $testBase = new FunctionalTestBase();

@@ -17,11 +17,11 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\File\Models;
+namespace AzureOSS\Storage\Tests\Unit\File\Models;
 
 use AzureOSS\Storage\File\Internal\FileResources;
 use AzureOSS\Storage\File\Models\FileAccessPolicy;
-use MicrosoftAzure\Storage\Tests\Unit\Common\Models\AccessPolicyTest;
+use AzureOSS\Storage\Tests\Unit\Common\Models\AccessPolicyTest;
 
 /**
  * Unit tests for class FileAccessPolicy

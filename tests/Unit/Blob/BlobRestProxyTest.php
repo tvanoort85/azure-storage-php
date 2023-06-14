@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Blob;
+namespace AzureOSS\Storage\Tests\Unit\Blob;
 
 use AzureOSS\Storage\Blob\BlobRestProxy;
 use AzureOSS\Storage\Blob\Internal\BlobResources;
@@ -47,9 +47,9 @@ use AzureOSS\Storage\Common\Internal\Resources;
 use AzureOSS\Storage\Common\Models\Range;
 use AzureOSS\Storage\Common\Models\RangeDiff;
 use AzureOSS\Storage\Common\Models\ServiceProperties;
-use MicrosoftAzure\Storage\Tests\Framework\BlobServiceRestProxyTestBase;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
-use MicrosoftAzure\Storage\Tests\Framework\VirtualFileSystem;
+use AzureOSS\Storage\Tests\Framework\BlobServiceRestProxyTestBase;
+use AzureOSS\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Framework\VirtualFileSystem;
 
 /**
  * Unit tests for class BlobRestProxy

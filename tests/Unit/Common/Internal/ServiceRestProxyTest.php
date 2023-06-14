@@ -17,15 +17,15 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal;
+namespace AzureOSS\Storage\Tests\Unit\Common\Internal;
 
 use AzureOSS\Storage\Common\Internal\Resources;
 use AzureOSS\Storage\Common\Internal\ServiceRestProxy;
+use AzureOSS\Storage\Tests\Framework\ReflectionTestBase;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use MicrosoftAzure\Storage\Tests\Framework\ReflectionTestBase;
 
 /**
  * Unit tests for class ServiceRestProxy

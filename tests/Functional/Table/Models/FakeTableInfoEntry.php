@@ -17,7 +17,7 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Functional\Table\Models;
+namespace AzureOSS\Storage\Tests\Functional\Table\Models;
 
 class FakeTableInfoEntry
 {

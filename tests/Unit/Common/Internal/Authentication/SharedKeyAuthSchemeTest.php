@@ -17,14 +17,14 @@
  * @see      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Tests\Unit\Common\Internal\Authentication;
+namespace AzureOSS\Storage\Tests\Unit\Common\Internal\Authentication;
 
 use AzureOSS\Storage\Common\Internal\Resources;
 use AzureOSS\Storage\Common\Internal\ServiceRestProxy;
+use AzureOSS\Storage\Tests\Framework\TestResources;
+use AzureOSS\Storage\Tests\Mock\Common\Internal\Authentication\SharedKeyAuthSchemeMock;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Uri;
-use MicrosoftAzure\Storage\Tests\Framework\TestResources;
-use MicrosoftAzure\Storage\Tests\Mock\Common\Internal\Authentication\SharedKeyAuthSchemeMock;
 
 /**
  * Unit tests for SharedKeyAuthScheme class.
