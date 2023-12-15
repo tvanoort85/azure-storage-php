@@ -857,4 +857,17 @@ class Utilities
     {
         return PHP_INT_SIZE == 8;
     }
+
+    /**
+     * @param string $uri
+     * @return string
+     */
+    public static function getSecondaryUriFromPrimary(string $primaryUri): string
+    {
+        $posFirstDot = strpos($primaryUri, '.');
+
+        return substr($primaryUri, 0, $posFirstDot) .
+            '-secondary.' .
+            substr($primaryUri, $posFirstDot + 11);
+    }
 }

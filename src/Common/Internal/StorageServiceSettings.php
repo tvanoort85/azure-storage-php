@@ -306,6 +306,19 @@ class StorageServiceSettings extends ServiceSettings
             $settings
         );
 
+        if ($blobEndpointUri) {
+            $blobSecondaryEndpointUri = Utilities::getSecondaryUriFromPrimary($blobEndpointUri);
+        }
+        if ($queueEndpointUri) {
+            $queueSecondaryEndpointUri = Utilities::getSecondaryUriFromPrimary($queueEndpointUri);
+        }
+        if ($tableEndpointUri) {
+            $tableSecondaryEndpointUri = Utilities::getSecondaryUriFromPrimary($tableEndpointUri);
+        }
+        if ($fileEndpointUri) {
+            $fileSecondaryEndpointUri = Utilities::getSecondaryUriFromPrimary($fileEndpointUri);
+        }
+
         return new StorageServiceSettings(
             $accountName,
             $accountKey,
